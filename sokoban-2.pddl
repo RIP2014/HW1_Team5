@@ -11,7 +11,6 @@
 		(NextTo B3 B2 LEFT) (NextTo B3 B4 RIGHT) (NextTo B4 B3 LEFT)
 		(NextTo C1 C2 RIGHT) (NextTo C2 C1 LEFT) (NextTo C2 C3 RIGHT) (NextTo C3 C2 LEFT)
 		(NextTo D1 D2 RIGHT) (NextTo D2 D1 LEFT)
-		(NextTo A1 A2 RIGHT) (NextTo A2 A1 LEFT) (NextTo A2 A3 LEFT)
 		(NextTo A1 B1 DOWN) (NextTo A2 B2 DOWN) (NextTo A3 B3 DOWN)
  		(NextTo B1 A1 UP) (NextTo B2 A2 UP) (NextTo B3 A3 UP)
 		(NextTo B2 C1 DOWN) (NextTo B3 C2 DOWN) (NextTo B4 C3 DOWN)
@@ -19,6 +18,6 @@
 		(NextTo C2 D1 DOWN) (NextTo C3 D2 DOWN)
 	 	(NextTo D1 C2 UP) (NextTo D2 C3 UP)
 		(NextTo D2 E1 DOWN) (NextTo E1 F1 DOWN)
-		(NextTo F1 E1 UP) (NextTo E1 D2 UP)
+		(NextTo F1 E1 UP) (NextTo E1 D2 UP))
 
 	(:goal (and (At block1 A1) (At block2 F1))))
