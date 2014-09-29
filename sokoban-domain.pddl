@@ -10,10 +10,10 @@
 		:precondition ( and (BOT ?bot) 
 			(NextTo ?locA ?locB ?direction) 
 			(At ?bot ?locA) 
-			(Empty ?locB)))
-		:effect (and not (Empty ?locB) 
+			(Empty ?locB))
+		:effect (and ( not (Empty ?locB) )
 			(At ?bot ?locB) 
-			((Empty ?locA)) 
+			(Empty ?locA) 
 			(not (At ?bot ?locA))))
 	(:action moveBlock
 		:parameters (?locA ?locB ?locC ?bot ?block ?direction)
@@ -22,7 +22,7 @@
 			(BLOCK ?block) 
 			(At ?bot ?locA) 
 			(At ?block ?locB) 
-			(Empty ?locC)) 
+			(Empty ?locC) 
 			(NextTo ?locA ?locB ?direction) 
 			(NextTo ?locB ?locC ?direction) )
 
