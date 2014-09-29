@@ -7,5 +7,10 @@ class PDDLReader:
         print (self.test)
 
 
+
+
+
+
+
+
 a = PDDLReader()
-print(a.test)
