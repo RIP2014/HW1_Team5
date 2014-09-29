@@ -2,7 +2,6 @@
 	(:requirements :strips)
 	(:predicates (BLOCK ?block) 
 		(BOT ?bot) 
-		(LOC ?loc)
 		(At ?bot ?loc) 
 		(NextTo ?locA ?locB ?direction) 
 		(Filled ?loc) )

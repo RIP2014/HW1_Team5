@@ -2,8 +2,6 @@
 	(:domain sokoban-domain)
 	(:objects bot block1 block2 A1 A2 A3 B1 B2 B3 B4 C1 C2 C3 D1 D2 E1 F1 LEFT RIGHT 		UP DOWN)
 	(:init (BOT bot) (BLOCK block1) (BLOCK block2) 
-		(LOC A1) (LOC A2) (LOC A3) (LOC B1) (LOC B2) (LOC B3) (LOC B4)
-		(LOC C1) (LOC C2) (LOC C3) (LOC D1) (LOC D2) (LOC E1) (LOC F1)
 		(At bot B1) (At block1 B2)(At block2 B3) 
 		(Filled B1) (Filled B2) (Filled B3) 
 		(NextTo A1 A2 RIGHT) (NextTo A2 A1 LEFT) (NextTo A2 A3 RIGHT) (NextTo A3 A2 LEFT) 
