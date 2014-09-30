@@ -1,0 +1,3972 @@
+---SatPlan Version: 1.1
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+goal constraints...
+
+goal fact not coded - level too low??
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+
+DECISION LAYER 12, WRITING THIN GP-BASED ENCODING WITH 1151 VARS, 7708 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 1151
+pure lits : 62
+
+1-clauses : 2
+2-clauses : 7411
+3-clauses : 104
+n-clauses : 191
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 0
+conflicts : 1
+time : ~0.01
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+
+DECISION LAYER 13, WRITING THIN GP-BASED ENCODING WITH 1317 VARS, 9313 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 1317
+pure lits : 64
+
+1-clauses : 2
+2-clauses : 8966
+3-clauses : 124
+n-clauses : 221
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 0
+conflicts : 1
+time : ~0.01
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+
+DECISION LAYER 14, WRITING THIN GP-BASED ENCODING WITH 1485 VARS, 10886 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 1485
+pure lits : 64
+
+1-clauses : 2
+2-clauses : 10487
+3-clauses : 146
+n-clauses : 251
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 0
+conflicts : 1
+time : ~0.01
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+
+DECISION LAYER 15, WRITING THIN GP-BASED ENCODING WITH 1655 VARS, 12514 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 1655
+pure lits : 64
+
+1-clauses : 2
+2-clauses : 12063
+3-clauses : 166
+n-clauses : 283
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 0
+conflicts : 1
+time : ~0.01
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+
+DECISION LAYER 16, WRITING THIN GP-BASED ENCODING WITH 1831 VARS, 14324 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 1831
+pure lits : 66
+
+1-clauses : 2
+2-clauses : 13821
+3-clauses : 184
+n-clauses : 317
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 525
+conflicts : 83
+time : ~0.01
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+
+DECISION LAYER 17, WRITING THIN GP-BASED ENCODING WITH 2011 VARS, 16191 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 2011
+pure lits : 67
+
+1-clauses : 2
+2-clauses : 15634
+3-clauses : 204
+n-clauses : 351
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 537
+conflicts : 101
+time : ~0.01
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+
+DECISION LAYER 18, WRITING THIN GP-BASED ENCODING WITH 2194 VARS, 18110 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 2194
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 17498
+3-clauses : 225
+n-clauses : 385
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 862
+conflicts : 284
+time : ~0.011
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+
+DECISION LAYER 19, WRITING THIN GP-BASED ENCODING WITH 2378 VARS, 20020 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 2378
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 19352
+3-clauses : 247
+n-clauses : 419
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 1448
+conflicts : 366
+time : ~0.013
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+
+DECISION LAYER 20, WRITING THIN GP-BASED ENCODING WITH 2562 VARS, 21922 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 2562
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 21198
+3-clauses : 269
+n-clauses : 453
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 1695
+conflicts : 454
+time : ~0.016
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+
+DECISION LAYER 21, WRITING THIN GP-BASED ENCODING WITH 2746 VARS, 23818 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 2746
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 23038
+3-clauses : 291
+n-clauses : 487
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 2269
+conflicts : 659
+time : ~0.024
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+
+DECISION LAYER 22, WRITING THIN GP-BASED ENCODING WITH 2930 VARS, 25709 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 2930
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 24873
+3-clauses : 313
+n-clauses : 521
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 2588
+conflicts : 650
+time : ~0.023
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+
+DECISION LAYER 23, WRITING THIN GP-BASED ENCODING WITH 3114 VARS, 27596 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 3114
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 26704
+3-clauses : 335
+n-clauses : 555
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 2263
+conflicts : 648
+time : ~0.02
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+
+DECISION LAYER 24, WRITING THIN GP-BASED ENCODING WITH 3298 VARS, 29481 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 3298
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 28533
+3-clauses : 357
+n-clauses : 589
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 3646
+conflicts : 1123
+time : ~0.041
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+             128 ops   and    5111 exclusive pairs
+time:  25,    56 facts and     432 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+plan graph layer 25...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+exclusion constraints layer 25...
+
+DECISION LAYER 25, WRITING THIN GP-BASED ENCODING WITH 3482 VARS, 31365 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 3482
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 30361
+3-clauses : 379
+n-clauses : 623
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 3649
+conflicts : 1149
+time : ~0.045
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+             128 ops   and    5111 exclusive pairs
+time:  25,    56 facts and     432 exclusive pairs
+graph has leveled off at time step 26
+
+
+             128 ops   and    5108 exclusive pairs
+time:  26,    56 facts and     432 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+plan graph layer 25...
+plan graph layer 26...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+exclusion constraints layer 25...
+exclusion constraints layer 26...
+
+DECISION LAYER 26, WRITING THIN GP-BASED ENCODING WITH 3666 VARS, 33249 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 3666
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 32189
+3-clauses : 401
+n-clauses : 657
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 4653
+conflicts : 1504
+time : ~0.052
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+             128 ops   and    5111 exclusive pairs
+time:  25,    56 facts and     432 exclusive pairs
+graph has leveled off at time step 26
+
+
+             128 ops   and    5108 exclusive pairs
+time:  26,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  27,    56 facts and     432 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+plan graph layer 25...
+plan graph layer 26...
+plan graph layer 27...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+exclusion constraints layer 25...
+exclusion constraints layer 26...
+exclusion constraints layer 27...
+
+DECISION LAYER 27, WRITING THIN GP-BASED ENCODING WITH 3850 VARS, 35133 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 3850
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 34017
+3-clauses : 423
+n-clauses : 691
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 6210
+conflicts : 2025
+time : ~0.08
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+             128 ops   and    5111 exclusive pairs
+time:  25,    56 facts and     432 exclusive pairs
+graph has leveled off at time step 26
+
+
+             128 ops   and    5108 exclusive pairs
+time:  26,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  27,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  28,    56 facts and     432 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+plan graph layer 25...
+plan graph layer 26...
+plan graph layer 27...
+plan graph layer 28...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+exclusion constraints layer 25...
+exclusion constraints layer 26...
+exclusion constraints layer 27...
+exclusion constraints layer 28...
+
+DECISION LAYER 28, WRITING THIN GP-BASED ENCODING WITH 4034 VARS, 37017 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 4034
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 35845
+3-clauses : 445
+n-clauses : 725
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 6658
+conflicts : 2524
+time : ~0.111
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+             128 ops   and    5111 exclusive pairs
+time:  25,    56 facts and     432 exclusive pairs
+graph has leveled off at time step 26
+
+
+             128 ops   and    5108 exclusive pairs
+time:  26,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  27,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  28,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  29,    56 facts and     432 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+plan graph layer 25...
+plan graph layer 26...
+plan graph layer 27...
+plan graph layer 28...
+plan graph layer 29...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+exclusion constraints layer 25...
+exclusion constraints layer 26...
+exclusion constraints layer 27...
+exclusion constraints layer 28...
+exclusion constraints layer 29...
+
+DECISION LAYER 29, WRITING THIN GP-BASED ENCODING WITH 4218 VARS, 38901 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 4218
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 37673
+3-clauses : 467
+n-clauses : 759
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 7617
+conflicts : 2964
+time : ~0.133
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+             128 ops   and    5111 exclusive pairs
+time:  25,    56 facts and     432 exclusive pairs
+graph has leveled off at time step 26
+
+
+             128 ops   and    5108 exclusive pairs
+time:  26,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  27,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  28,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  29,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  30,    56 facts and     432 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+plan graph layer 25...
+plan graph layer 26...
+plan graph layer 27...
+plan graph layer 28...
+plan graph layer 29...
+plan graph layer 30...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+exclusion constraints layer 25...
+exclusion constraints layer 26...
+exclusion constraints layer 27...
+exclusion constraints layer 28...
+exclusion constraints layer 29...
+exclusion constraints layer 30...
+
+DECISION LAYER 30, WRITING THIN GP-BASED ENCODING WITH 4402 VARS, 40785 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 4402
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 39501
+3-clauses : 489
+n-clauses : 793
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 7910
+conflicts : 2635
+time : ~0.108
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+             128 ops   and    5111 exclusive pairs
+time:  25,    56 facts and     432 exclusive pairs
+graph has leveled off at time step 26
+
+
+             128 ops   and    5108 exclusive pairs
+time:  26,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  27,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  28,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  29,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  30,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  31,    56 facts and     432 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+plan graph layer 25...
+plan graph layer 26...
+plan graph layer 27...
+plan graph layer 28...
+plan graph layer 29...
+plan graph layer 30...
+plan graph layer 31...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+exclusion constraints layer 25...
+exclusion constraints layer 26...
+exclusion constraints layer 27...
+exclusion constraints layer 28...
+exclusion constraints layer 29...
+exclusion constraints layer 30...
+exclusion constraints layer 31...
+
+DECISION LAYER 31, WRITING THIN GP-BASED ENCODING WITH 4586 VARS, 42669 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 4586
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 41329
+3-clauses : 511
+n-clauses : 827
+discarded : 0
+
+[ solve ]
+
+unsatisfiable                             
+
+[ stats ]
+
+decisions : 9001
+conflicts : 3489
+time : ~0.168
+
+***UNSAT***
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+             128 ops   and    5111 exclusive pairs
+time:  25,    56 facts and     432 exclusive pairs
+graph has leveled off at time step 26
+
+
+             128 ops   and    5108 exclusive pairs
+time:  26,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  27,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  28,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  29,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  30,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  31,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  32,    56 facts and     432 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+plan graph layer 25...
+plan graph layer 26...
+plan graph layer 27...
+plan graph layer 28...
+plan graph layer 29...
+plan graph layer 30...
+plan graph layer 31...
+plan graph layer 32...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+exclusion constraints layer 25...
+exclusion constraints layer 26...
+exclusion constraints layer 27...
+exclusion constraints layer 28...
+exclusion constraints layer 29...
+exclusion constraints layer 30...
+exclusion constraints layer 31...
+exclusion constraints layer 32...
+
+DECISION LAYER 32, WRITING THIN GP-BASED ENCODING WITH 4770 VARS, 44553 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+
+***Solving***
+
+
+[ filemap ]
+[ extract ]
+
+variables : 4770
+pure lits : 68
+
+1-clauses : 2
+2-clauses : 43157
+3-clauses : 533
+n-clauses : 861
+discarded : 0
+
+[ solve ]
+
+satisfiable                             
+
+[ stats ]
+
+decisions : 11846
+conflicts : 3793
+time : ~0.17
+
+
+bb: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+bb: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+time:   0,    14 facts and       0 exclusive pairs
+              15 ops   and       2 exclusive pairs
+time:   1,    16 facts and       4 exclusive pairs
+              19 ops   and      19 exclusive pairs
+time:   2,    17 facts and       6 exclusive pairs
+              23 ops   and      52 exclusive pairs
+time:   3,    20 facts and      22 exclusive pairs
+              31 ops   and     168 exclusive pairs
+time:   4,    24 facts and      50 exclusive pairs
+              43 ops   and     436 exclusive pairs
+time:   5,    29 facts and      93 exclusive pairs
+              57 ops   and     884 exclusive pairs
+time:   6,    32 facts and     116 exclusive pairs
+              71 ops   and    1507 exclusive pairs
+time:   7,    37 facts and     194 exclusive pairs
+              81 ops   and    2052 exclusive pairs
+time:   8,    40 facts and     237 exclusive pairs
+              87 ops   and    2369 exclusive pairs
+time:   9,    41 facts and     225 exclusive pairs
+              96 ops   and    2952 exclusive pairs
+time:  10,    46 facts and     329 exclusive pairs
+             104 ops   and    3516 exclusive pairs
+time:  11,    49 facts and     387 exclusive pairs
+             109 ops   and    3837 exclusive pairs
+time:  12,    50 facts and     376 exclusive pairs
+             114 ops   and    4187 exclusive pairs
+time:  13,    52 facts and     411 exclusive pairs
+             116 ops   and    4266 exclusive pairs
+time:  14,    52 facts and     377 exclusive pairs
+             118 ops   and    4364 exclusive pairs
+time:  15,    52 facts and     353 exclusive pairs
+             122 ops   and    4715 exclusive pairs
+time:  16,    54 facts and     415 exclusive pairs
+             125 ops   and    4990 exclusive pairs
+time:  17,    55 facts and     440 exclusive pairs
+             127 ops   and    5165 exclusive pairs
+time:  18,    56 facts and     468 exclusive pairs
+             128 ops   and    5236 exclusive pairs
+time:  19,    56 facts and     458 exclusive pairs
+             128 ops   and    5201 exclusive pairs
+time:  20,    56 facts and     450 exclusive pairs
+             128 ops   and    5172 exclusive pairs
+time:  21,    56 facts and     444 exclusive pairs
+             128 ops   and    5149 exclusive pairs
+time:  22,    56 facts and     439 exclusive pairs
+             128 ops   and    5131 exclusive pairs
+time:  23,    56 facts and     435 exclusive pairs
+             128 ops   and    5118 exclusive pairs
+time:  24,    56 facts and     433 exclusive pairs
+             128 ops   and    5111 exclusive pairs
+time:  25,    56 facts and     432 exclusive pairs
+graph has leveled off at time step 26
+
+
+             128 ops   and    5108 exclusive pairs
+time:  26,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  27,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  28,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  29,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  30,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  31,    56 facts and     432 exclusive pairs
+             128 ops   and    5108 exclusive pairs
+time:  32,    56 facts and     432 exclusive pairs
+
+creating thin gp-based encoding...
+plan graph layer 0...
+plan graph layer 1...
+plan graph layer 2...
+plan graph layer 3...
+plan graph layer 4...
+plan graph layer 5...
+plan graph layer 6...
+plan graph layer 7...
+plan graph layer 8...
+plan graph layer 9...
+plan graph layer 10...
+plan graph layer 11...
+plan graph layer 12...
+plan graph layer 13...
+plan graph layer 14...
+plan graph layer 15...
+plan graph layer 16...
+plan graph layer 17...
+plan graph layer 18...
+plan graph layer 19...
+plan graph layer 20...
+plan graph layer 21...
+plan graph layer 22...
+plan graph layer 23...
+plan graph layer 24...
+plan graph layer 25...
+plan graph layer 26...
+plan graph layer 27...
+plan graph layer 28...
+plan graph layer 29...
+plan graph layer 30...
+plan graph layer 31...
+plan graph layer 32...
+goal constraints...
+exclusion constraints layer 0...
+exclusion constraints layer 1...
+exclusion constraints layer 2...
+exclusion constraints layer 3...
+exclusion constraints layer 4...
+exclusion constraints layer 5...
+exclusion constraints layer 6...
+exclusion constraints layer 7...
+exclusion constraints layer 8...
+exclusion constraints layer 9...
+exclusion constraints layer 10...
+exclusion constraints layer 11...
+exclusion constraints layer 12...
+exclusion constraints layer 13...
+exclusion constraints layer 14...
+exclusion constraints layer 15...
+exclusion constraints layer 16...
+exclusion constraints layer 17...
+exclusion constraints layer 18...
+exclusion constraints layer 19...
+exclusion constraints layer 20...
+exclusion constraints layer 21...
+exclusion constraints layer 22...
+exclusion constraints layer 23...
+exclusion constraints layer 24...
+exclusion constraints layer 25...
+exclusion constraints layer 26...
+exclusion constraints layer 27...
+exclusion constraints layer 28...
+exclusion constraints layer 29...
+exclusion constraints layer 30...
+exclusion constraints layer 31...
+exclusion constraints layer 32...
+
+DECISION LAYER 32, WRITING THIN GP-BASED ENCODING WITH 4770 VARS, 44553 CLAUSES.
+
+time spent:    0.00 seconds instantiating 76 action templates
+               0.00 seconds reachability analysis, yielding 56 facts and 76 actions
+               0.00 seconds collecting 56 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds building (std) graph
+               0.00 seconds CNF output time
+               0.00 seconds total planner time (solving not included)
+
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+Pruned:  0: (MOVEBLOCK D2 E1 F1 BOT BLOCK1 DOWN) [1]
+---SatPlan Version: 1.1
+***SAT!***
+
+Solved in 32 layers
+
+Real Time: = 1.6
+User Time: = 1.44
+Syst Time: = 0.12
+

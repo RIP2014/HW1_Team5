@@ -1,0 +1,5 @@
+(define (problem sokoban-1)
+	(:domain sokoban-domain)
+	(:objects A1 A2 B1 C1 C2 C3 C4 D1 D2 D3 D4 E1 E2 Bot1 Block1 up down left right)
+	(:init (NextTo A1 A2 right) (NextTo A2 A1 left) (NextTo A2 B1 down) (NextTo B1 A2 up) (NextTo B1 C2 down) (NextTo C1 C2 right) (NextTo C1 D1 down) (NextTo C2 C1 left) (NextTo C2 C3 right) (NextTo C2 B1 up) (NextTo C2 D2 down) (NextTo C3 C2 left) (NextTo C3 C4 right) (NextTo C3 D3 down) (NextTo C4 C3 left) (NextTo C4 D4 down) (NextTo D1 C1 up) (NextTo D1 D2 right) (NextTo D1 E1 down) (NextTo D2 D1 left) (NextTo D2 C2 up) (NextTo D2 D3 right) (NextTo D2 E2 down) (NextTo D3 D2 left) (NextTo D3 C3 up) (NextTo D3 D4 right) (NextTo D4 C4 up) (NextTo D4 D3 left) (NextTo E1 D1 up) (NextTo E1 E2 right) (NextTo E2 E1 left) (NextTo E2 D2 up) (Empty A1) (Empty A2) (Empty C1) (Empty C2) (Empty C3) (Empty C4) (Empty D1) (Empty D2) (Empty D4) (Empty E1) (Empty E2) (At Bot1 B1) (At Block1 D3) (BLOCK Block1) (BOT Bot1))
+	(:goal (At Block1 A2)))
