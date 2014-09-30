@@ -3,7 +3,7 @@
     (:objects bot block1 block2 block3 A1 A2 A3 B1 B2 C1 C2 D1 D2 D3 D4 D5 D6 D7 D8 D9 E1 E2 E3 E4 F1 F2 F3 F4 F5 F6 F7 LEFT RIGHT UP DOWN)
     (:init (BOT bot) (BLOCK block1) (BLOCK block2) (BLOCK block3)
         (At bot D2) (At block1 D8) (At block2 D6) (At block3 D4)
-        (Empty A1) (Empty A2) (Empty A3) (Empty B1) (Empty B2) (Empty B3) (Empty C1) (Empty C2) (Empty D1) (Empty D3) (Empty D5)
+        (Empty A1) (Empty A2) (Empty A3) (Empty B1) (Empty B2) (Empty C1) (Empty C2) (Empty D1) (Empty D3) (Empty D5)
 	(Empty D7) (Empty D9) (Empty E1) (Empty E2) (Empty E3) (Empty E4) (Empty F1) (Empty F2) (Empty F3) (Empty F4) (Empty F5) 
 	(Empty F6) (Empty F7)
 	
