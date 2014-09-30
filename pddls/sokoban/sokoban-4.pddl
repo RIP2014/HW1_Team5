@@ -6,6 +6,7 @@
 		(LOC C5) (LOC D1) (LOC D2) (LOC D3) (LOC D4) (LOC D5) (LOC E1) (LOC E2)
 		(LOC E3) (LOC F1) (LOC F2) 
 		(AT bot C5) (At block1 B1) (AT block2 C2) (AT block3 E1)
+		
 		(Filled C5) (Filled B1) (Filled C2) (Filled E1)
 		(NextTo A1 A2 RIGHT) (NextTo A2 A1 LEFT) (NextTo B1 B2 RIGHT) (NextTo B2 B1 LEFT)   
 		(NextTo C1 C2 RIGHT) (NextTo C2 C1 LEFT) (NextTo C2 C3 RIGHT) (NextTo C3 C2 LEFT)
