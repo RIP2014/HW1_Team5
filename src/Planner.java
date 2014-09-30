@@ -1,39 +1,53 @@
-import java.util.PriorityQueue;
+import java.util.LinkedList;
+import java.util.Hashtable;
+import java.util.List;
 
 
 public class Planner {
 	
-	PriorityQueue<Integer> stack;
+	LinkedList<Integer> forwardQ, backwardQ;
+	Hashtable<Integer, Integer> fHash, bHash;
 	int goal, soln;//change
 	int[] actionSet;//change
 	
 	public Planner(){
-		this.stack = new PriorityQueue<Integer>();
+		this.forwardQ = new LinkedList<Integer>();
+		this.backwardQ = new LinkedList<Integer>();
+		this.fHash = new Hashtable<Integer, Integer>();
+		this.bHash = new Hashtable<Integer, Integer>();
 		this.actionSet = new int[5];
 		this.goal = 5;//change
 		this.soln = 10;//change
 	}
 	
 	public void solve(){
-		this.stack.add(6);
 		//use bidirectional breadth first search?
-		while(!this.stack.isEmpty() || this.soln == this.goal){
-			int curr = this.stack.remove();
+		while(!this.forwardQ.isEmpty() && !this.backwardQ.isEmpty()){
+			
+			int fCurr = this.forwardQ.removeFirst();
+			int bCurr = this.backwardQ.removeFirst();
+			
 			for(int a : actionSet){//change
-				int next = transistion(curr, a);//change
-				if(next == this.goal){
-					return;//chnage will have to get plan
+				int fNext = transistion(fCurr, a);//change
+				int bNext = bTransition(bCurr,a);//change
+				
+				if(this.bHash.contains(fNext)){
+					return;
+				}else{
+					this.fHash.add(fNext,fNext);
+					this.forwardQ.add(fNext);
 				}
-				int cost = aStar(next);//change
-				this.stack.add(next,cost);//change
+
+				if(this.fHash.contains(bNext)){
+					return;
+				}else{
+					this.bHash.add(bNext,bNext);
+					this.backwardQ.add(bNext);
+				}
+				
+				
 			}
 		}
-		
 		return;
-	}
-	
-	public int aStar(int next){
-		
-		return 0;
 	}
 }
