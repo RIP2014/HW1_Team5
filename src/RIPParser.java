@@ -6,17 +6,17 @@ import java.io.BufferedReader;
 
 public class RIPParser {
 	ArrayList list;
-	List< List<Integer> > map;
-	List goals, initState;
+	ArrayList<ArrayList<Integer>> map;
+	ArrayList<ArrayList<String>> goals, initState; 
 	
 	// in the map: 1= wall, 0=free
 	public RIPParser(String fileName) throws Exception {
 		//define variables
-		this.map = new ArrayList< List<Integer> >();
-		this.goals = new ArrayList();
-		this.initState = new ArrayList();
+		this.map = new ArrayList<ArrayList<Integer>>();
+		this.goals = new ArrayList<ArrayList<String>>();
+		this.initState = new ArrayList<ArrayList<String>>();
 		//open file
-		List row = new ArrayList();
+		ArrayList<Integer> row = new ArrayList<Integer>();
 		ArrayList newGoal;
 		
 		FileReader input = new FileReader(fileName);
@@ -83,49 +83,30 @@ public class RIPParser {
 				}
 				}
 			if (row.size() != 0) {
-				map.add(row);
+				map.add((ArrayList<Integer>) row);
 			}
 			row = new ArrayList();
 			//for each item go through switch, add to map
 			currentRowNumber += 1;
 		}
-		System.out.println(map);
-		System.out.println(goals);
-		System.out.println(initState);
+		//System.out.println(map);
+		//System.out.println(goals);
+		//System.out.println(this.initState.get(1).get(2));
 		
-		//save as list to return
-		ArrayList list = new ArrayList();
-		list.add(map);
-		list.add(goals);
-		list.add(initState.get(1));
-		this.list = list;
-		//return list;
+	
 	}
 
-	public ArrayList getList() {
-		return this.list;
-	}
 	
-	public List< List<Integer>> getMap(){
+	public ArrayList<ArrayList<Integer>> getMap(){
 		return this.map;
 	}
 	
-	public List getGoals(){
+	public ArrayList<ArrayList<String>> getGoals(){
 		return this.goals;
 	}
 	
-	public List getInit(){
+	public ArrayList<ArrayList<String>> getInit(){
 		return this.initState;
 	}
 	
-	public static void main(String [] args){
-		try {
-			RIPParser par = new RIPParser("src/challenge.txt");
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-
-	}
 }
