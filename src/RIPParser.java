@@ -6,13 +6,15 @@ import java.io.BufferedReader;
 
 public class RIPParser {
 	ArrayList list;
+	List< List<Integer> > map;
+	List goals, initState;
 	
 	// in the map: 1= wall, 0=free
 	public RIPParser(String fileName) throws Exception {
 		//define variables
-		List< List<Integer> > map = new ArrayList< List<Integer> >();
-		List goals = new ArrayList();
-		List initState = new ArrayList();
+		this.map = new ArrayList< List<Integer> >();
+		this.goals = new ArrayList();
+		this.initState = new ArrayList();
 		//open file
 		List row = new ArrayList();
 		ArrayList newGoal;
@@ -102,6 +104,18 @@ public class RIPParser {
 
 	public ArrayList getList() {
 		return this.list;
+	}
+	
+	public List< List<Integer>> getMap(){
+		return this.map;
+	}
+	
+	public List getGoals(){
+		return this.goals;
+	}
+	
+	public List getInit(){
+		return this.initState;
 	}
 	
 	public static void main(String [] args){
