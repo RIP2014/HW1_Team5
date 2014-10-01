@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.io.File;
 import java.io.FileReader;
 import java.io.BufferedReader;
 
@@ -7,7 +8,7 @@ public class RIPParser {
 	ArrayList list;
 	
 	// in the map: 1= wall, 0=free
-	public  RIPParser(String fileName) throws Exception {
+	public RIPParser(String fileName) throws Exception {
 		//define variables
 		List< List<Integer> > map = new ArrayList< List<Integer> >();
 		List goals = new ArrayList();
@@ -15,6 +16,7 @@ public class RIPParser {
 		//open file
 		List row = new ArrayList();
 		ArrayList newGoal;
+		
 		FileReader input = new FileReader(fileName);
 		BufferedReader buffRead = new BufferedReader(input);
 		String currLine = null;
@@ -101,5 +103,15 @@ public class RIPParser {
 	public ArrayList getList() {
 		return this.list;
 	}
+	
+	public static void main(String [] args){
+		try {
+			RIPParser par = new RIPParser("src/challenge.txt");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 
+	}
 }
