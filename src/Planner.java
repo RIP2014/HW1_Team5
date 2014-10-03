@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Hashtable;
-import java.util.List;
-
 
 public class Planner {
 	
@@ -14,6 +12,7 @@ public class Planner {
 	ArrayList<ArrayList<Integer>> map;
 	ArrayList<ArrayList<String>> goals;
 	stateNode initState;
+	//TODO change this to enum 
 	String[] actions = {"LEFT","RIGHT","UP","DOWN"};
 	
 	public Planner(String filename) throws Exception{
@@ -70,12 +69,15 @@ public class Planner {
 		
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public stateNode transition(stateNode curr, String action){
 		
 		ArrayList bot = curr.getBotLocation();
 		int botx = Integer.parseInt((String)bot.get(1));
 		int boty = Integer.parseInt((String)bot.get(2));
 		
+		//TODO remove redundant code : code not dry
+		//TODO implement enum for stability
 		if(action == "LEFT"){
 			if(!collide(botx-1, boty)){//an empty space update here
 				for(int i = 0; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
@@ -301,6 +303,7 @@ public class Planner {
 		String action;
 		stateNode parent;
 		
+		@SuppressWarnings({ "unchecked", "rawtypes" })
 		private stateNode(ArrayList state, stateNode parent, String action){
 			this.botLocation = (ArrayList<String>) state.get(0);
 			this.blockLocation = new ArrayList<ArrayList<String>>();
@@ -311,13 +314,15 @@ public class Planner {
 			this.action = action;
 		}
 		
+		@SuppressWarnings("rawtypes")
 		public ArrayList getBotLocation() {
 			return this.botLocation;
 		}
 
+		@SuppressWarnings({ "unchecked", "rawtypes" })
 		public boolean isGoal(ArrayList goals) {
 			int p = 0;
-			
+
 			for(int i = 0; i < goals.size(); i++){
 				Integer x = ((ArrayList<Integer>) goals.get(i)).get(0);
 				Integer y = ((ArrayList<Integer>) goals.get(i)).get(1);
@@ -350,6 +355,8 @@ public class Planner {
 			return this.parent;
 		}
 		
+		//TODO figure out if this is useful to leave in
+		@SuppressWarnings("unused")
 		private void setParent(stateNode parent){
 			this.parent = parent;
 		}
@@ -358,12 +365,10 @@ public class Planner {
 	
 	public static void main(String [] args){
 		try {
-			Planner par = new Planner("src/problem1.txt");
+			Planner par = new Planner("challenge.txt");
 			par.solve();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 }
-
-
