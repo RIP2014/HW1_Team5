@@ -37,6 +37,7 @@ public class Planner {
 				if(next != null && next.isGoal(this.goals)){//check if we found a solution
 					System.out.println("Found a solution!");
 					System.out.println("Nodes Explored: "+nodesExplored);
+					PrintSolution(next);
 					return;
 				}
 				if(next != null){
@@ -58,6 +59,17 @@ public class Planner {
 	
 	}
 	
+	private void PrintSolution(stateNode curr) {
+		String solution = "";
+		do{
+			solution = curr.action + "\n" + solution;
+			curr = curr.getParent();
+		}while(curr.parent != null);
+		
+		System.out.println(solution);
+		
+	}
+
 	public stateNode transition(stateNode curr, String action){
 		
 		ArrayList bot = curr.getBotLocation();
@@ -142,7 +154,7 @@ public class Planner {
 										ne.add(temp);
 
 									}
-									return new stateNode(ne, curr, "RIGHT1");//update here
+									return new stateNode(ne, curr, "RIGHT");//update here
 								}else{
 									return null;//can't move this direction because other block blocking way
 								}
@@ -162,7 +174,7 @@ public class Planner {
 					ne.add(curr.getBlockLocation().get(k).clone());
 
 				}
-				return new stateNode(ne, curr, "RIGHT2");
+				return new stateNode(ne, curr, "RIGHT");
 			}
 		}else if(action == "UP"){
 			if(!collide(botx, boty-1)){//an empty space update here
@@ -269,9 +281,10 @@ public class Planner {
 		return null;
 	}
 	
-	public boolean collide(int x, int y){
+	public boolean collide(int x, int y){//if there is a wall return true, else there is no wall and return false
 		try{
-			if(Integer.toString(map.get(x).get(y)) != "X" ){
+			if(map.get(y).get(x) != 1 ){
+
 				return false;
 			}
 		}catch(Exception e){
@@ -345,7 +358,7 @@ public class Planner {
 	
 	public static void main(String [] args){
 		try {
-			Planner par = new Planner("src/problem1.txt");
+			Planner par = new Planner("src/challenge.txt");
 			par.solve();
 		} catch (Exception e) {
 			e.printStackTrace();
