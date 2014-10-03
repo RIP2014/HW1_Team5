@@ -1,15 +1,15 @@
 import java.util.ArrayList;
-import java.util.List;
-import java.io.File;
 import java.io.FileReader;
 import java.io.BufferedReader;
 
 public class RIPParser {
+	@SuppressWarnings("rawtypes")
 	ArrayList list;
 	ArrayList<ArrayList<Integer>> map;
 	ArrayList<ArrayList<String>> goals, initState; 
 	
 	// in the map: 1= wall, 0=free
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public RIPParser(String fileName) throws Exception {
 		//define variables
 		this.map = new ArrayList<ArrayList<Integer>>();
@@ -18,7 +18,6 @@ public class RIPParser {
 		//open file
 		ArrayList<Integer> row = new ArrayList<Integer>();
 		ArrayList newGoal;
-		
 		FileReader input = new FileReader(fileName);
 		BufferedReader buffRead = new BufferedReader(input);
 		String currLine = null;
@@ -45,41 +44,23 @@ public class RIPParser {
 					}
 				} else {
 				for (int i=0; i<currLine.length(); i++) {
-				
-					switch(currLine.charAt(i)) {
-						case 'O': row.add(0);
-						      break;
-						case 'X': row.add(1);
-							  break;
-						case 'G': row.add(0);
-							  newGoal = new ArrayList();
-							  newGoal.add(i);
-							  newGoal.add(currentRowNumber);
-							  newGoal.add('G');
-							  goals.add(newGoal);
-							  break;
-						case '1': row.add(0);
-							  newGoal = new ArrayList();
-							  newGoal.add(i);
-							  newGoal.add(currentRowNumber);
-							  newGoal.add('1');
-							  goals.add(newGoal);
-							  break;
-						case '2': row.add(0);
-							  newGoal = new ArrayList();
-							  newGoal.add(i);
-							  newGoal.add(currentRowNumber);
-							  newGoal.add('2');
-							  goals.add(newGoal);
-							  break;
-						case '3': row.add(0);
-							  newGoal = new ArrayList();
-							  newGoal.add(i);
-							  newGoal.add(currentRowNumber);
-							  newGoal.add('3');
-							  goals.add(newGoal);
-							  break;
+					
+					char currChar = currLine.charAt(i);
+					if(currChar == 'O' || currChar == 'X') {
+						if(currChar == 'O') {
+							row.add(0);
+						} else {
+							row.add(1);
+						}
+					} else {
+						row.add(0);
+						newGoal = new ArrayList();
+						newGoal.add(i);
+						newGoal.add(currentRowNumber);
+						newGoal.add(currChar);
+						goals.add(newGoal);
 					}
+					
 				}
 				}
 			if (row.size() != 0) {
@@ -89,11 +70,11 @@ public class RIPParser {
 			//for each item go through switch, add to map
 			currentRowNumber += 1;
 		}
+		buffRead.close();
 		//System.out.println(map);
 		//System.out.println(goals);
 		//System.out.println(this.initState.get(1).get(2));
 		
-	
 	}
 
 	
