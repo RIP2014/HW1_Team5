@@ -317,7 +317,7 @@ public class Planner {
 
 		public boolean isGoal(ArrayList goals) {
 			int p = 0;
-
+			
 			for(int i = 0; i < goals.size(); i++){
 				Integer x = ((ArrayList<Integer>) goals.get(i)).get(0);
 				Integer y = ((ArrayList<Integer>) goals.get(i)).get(1);
@@ -358,7 +358,7 @@ public class Planner {
 	
 	public static void main(String [] args){
 		try {
-			Planner par = new Planner("src/challenge.txt");
+			Planner par = new Planner("src/problem1.txt");
 			par.solve();
 		} catch (Exception e) {
 			e.printStackTrace();
