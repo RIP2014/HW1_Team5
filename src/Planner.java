@@ -31,24 +31,26 @@ public class Planner {
 		
 		while(!forwardQ.isEmpty()){
 			stateNode curr = forwardQ.removeFirst();
+
 			for(String a : actions){
 				stateNode next = transition(curr, a);//get Transition
-
 				if(next != null && next.isGoal(this.goals)){//check if we found a solution
 					System.out.println("Found a solution!");
 					System.out.println("Nodes Explored: "+nodesExplored);
 					return;
 				}
-				
-				if (next != null && !fHash.contains(next.getBlockState())){//If there is a legal transition that has not been visited yet 
-					forwardQ.add(next);
-					nodesExplored++;
-					System.out.println(next.botLocation);
+				if(next != null){
+					String stateK = next.botLocation + next.getBlockState();
 
-					//if(fHash.contains(curr.getBlockState())){
+					if (!fHash.containsKey(stateK)){//If there is a legal transition that has not been visited yet 
+						forwardQ.add(next);
+						nodesExplored++;
+
+						//if(fHash.contains(curr.getBlockState())){
 						//fHash.remove(curr.getBlockState());
-					fHash.put(next.getBlockState(), next);
-					//}
+						fHash.put(stateK, next);
+						//}
+					}
 				}
 			}
 		}
@@ -78,11 +80,11 @@ public class Planner {
 								if(nothBlock){
 									
 									ArrayList ne = new ArrayList();
-									ArrayList x = curr.getBotLocation();
+									ArrayList x = (ArrayList) curr.getBotLocation().clone();
 									x.set(1,Integer.toString(botx-1));//update here
 									ne.add(x);
 									for (int k = 0; k < curr.getBlockLocation().size(); k++){
-										ArrayList temp = curr.getBlockLocation().get(k);
+										ArrayList temp = (ArrayList) curr.getBlockLocation().get(k).clone();
 
 										if(k == blockCollied){
 											 temp.set(1,Integer.toString(botx-2));//update here
@@ -103,14 +105,14 @@ public class Planner {
 				
 				//no block found next to bot
 				ArrayList ne = new ArrayList();
-				ArrayList x = curr.getBotLocation();
+				ArrayList x = (ArrayList) curr.getBotLocation().clone();
 				x.set(1,Integer.toString(botx-1));
 				ne.add(x);
 				for (int k = 0; k < curr.getBlockLocation().size(); k++){
-					ne.add(curr.getBlockLocation().get(k));
+					ne.add(curr.getBlockLocation().get(k).clone());
 
 				}
-				return new stateNode(ne, curr, "DOWN");
+				return new stateNode(ne, curr, "LEFT");
 			}
 		}else if(action == "RIGHT"){
 			if(!collide(botx+1, boty)){//an empty space update here
@@ -128,11 +130,11 @@ public class Planner {
 								if(nothBlock){
 									
 									ArrayList ne = new ArrayList();
-									ArrayList x = curr.getBotLocation();
+									ArrayList x = (ArrayList) curr.getBotLocation().clone();
 									x.set(1,Integer.toString(botx+1));//update here
 									ne.add(x);
 									for (int k = 0; k < curr.getBlockLocation().size(); k++){
-										ArrayList temp = curr.getBlockLocation().get(k);
+										ArrayList temp = (ArrayList) curr.getBlockLocation().get(k).clone();
 
 										if(k == blockCollied){
 											 temp.set(1,Integer.toString(botx+2));//update here
@@ -140,7 +142,7 @@ public class Planner {
 										ne.add(temp);
 
 									}
-									return new stateNode(ne, curr, "RIGHT");//update here
+									return new stateNode(ne, curr, "RIGHT1");//update here
 								}else{
 									return null;//can't move this direction because other block blocking way
 								}
@@ -153,14 +155,14 @@ public class Planner {
 				
 				//no block found next to bot
 				ArrayList ne = new ArrayList();
-				ArrayList x = curr.getBotLocation();
+				ArrayList x = (ArrayList) curr.getBotLocation().clone();
 				x.set(1,Integer.toString(botx+1));
 				ne.add(x);
 				for (int k = 0; k < curr.getBlockLocation().size(); k++){
-					ne.add(curr.getBlockLocation().get(k));
+					ne.add(curr.getBlockLocation().get(k).clone());
 
 				}
-				return new stateNode(ne, curr, "RIGHT");
+				return new stateNode(ne, curr, "RIGHT2");
 			}
 		}else if(action == "UP"){
 			if(!collide(botx, boty-1)){//an empty space update here
@@ -178,11 +180,11 @@ public class Planner {
 								if(nothBlock){
 									
 									ArrayList ne = new ArrayList();
-									ArrayList x = curr.getBotLocation();
+									ArrayList x = (ArrayList) curr.getBotLocation().clone();
 									x.set(2,Integer.toString(boty-1));//update here
 									ne.add(x);
 									for (int k = 0; k < curr.getBlockLocation().size(); k++){
-										ArrayList temp = curr.getBlockLocation().get(k);
+										ArrayList temp = (ArrayList) curr.getBlockLocation().get(k).clone();
 
 										if(k == blockCollied){
 											 temp.set(2,Integer.toString(boty-2));//update here
@@ -203,11 +205,11 @@ public class Planner {
 				
 				//no block found next to bot
 				ArrayList ne = new ArrayList();
-				ArrayList x = curr.getBotLocation();
+				ArrayList x = (ArrayList) curr.getBotLocation().clone();
 				x.set(2,Integer.toString(boty-1));
 				ne.add(x);
 				for (int k = 0; k < curr.getBlockLocation().size(); k++){
-					ne.add(curr.getBlockLocation().get(k));
+					ne.add(curr.getBlockLocation().get(k).clone());
 
 				}
 				return new stateNode(ne, curr, "UP");
@@ -228,11 +230,11 @@ public class Planner {
 								if(nothBlock){
 									
 									ArrayList ne = new ArrayList();
-									ArrayList x = curr.getBotLocation();
+									ArrayList x = (ArrayList) curr.getBotLocation().clone();
 									x.set(2,Integer.toString(boty+1));//update here
 									ne.add(x);
 									for (int k = 0; k < curr.getBlockLocation().size(); k++){
-										ArrayList temp = curr.getBlockLocation().get(k);
+										ArrayList temp = (ArrayList) curr.getBlockLocation().get(k).clone();
 
 										if(k == blockCollied){
 											 temp.set(2,Integer.toString(boty+2));//update here
@@ -253,11 +255,11 @@ public class Planner {
 				
 				//no block found next to bot
 				ArrayList ne = new ArrayList();
-				ArrayList x = curr.getBotLocation();
+				ArrayList x = (ArrayList) curr.getBotLocation().clone();
 				x.set(2,Integer.toString(boty+1));
 				ne.add(x);
 				for (int k = 0; k < curr.getBlockLocation().size(); k++){
-					ne.add(curr.getBlockLocation().get(k));
+					ne.add(curr.getBlockLocation().get(k).clone());
 
 				}
 				return new stateNode(ne, curr, "DOWN");
@@ -287,7 +289,6 @@ public class Planner {
 		stateNode parent;
 		
 		private stateNode(ArrayList state, stateNode parent, String action){
-			//System.out.println(state.get(4));
 			this.botLocation = (ArrayList<String>) state.get(0);
 			this.blockLocation = new ArrayList<ArrayList<String>>();
 			for(int i = 1; i < state.size(); i++){
