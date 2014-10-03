@@ -14,7 +14,7 @@ public class Planner {
 	ArrayList<ArrayList<Integer>> map;
 	ArrayList<ArrayList<String>> goals;
 	stateNode initState;
-	String[] actions = {"DOWN"};//{"LEFT","RIGHT","UP","DOWN"};
+	String[] actions = {"LEFT","RIGHT","UP","DOWN"};
 	
 	public Planner(String filename) throws Exception{
 		RIPParser parse = new RIPParser(filename);
@@ -36,15 +36,14 @@ public class Planner {
 
 				if(next != null && next.isGoal(this.goals)){//check if we found a solution
 					System.out.println("Found a solution!");
-					//System.out.println("Nodes Explored: "+nodesExplored);
+					System.out.println("Nodes Explored: "+nodesExplored);
 					return;
 				}
 				
 				if (next != null && !fHash.contains(next.getBlockState())){//If there is a legal transition that has not been visited yet 
-					System.out.println(next.getBlockState());
 					forwardQ.add(next);
 					nodesExplored++;
-					//System.out.println("Nodes Explored: "+nodesExplored);
+					System.out.println(next.botLocation);
 
 					//if(fHash.contains(curr.getBlockState())){
 						//fHash.remove(curr.getBlockState());
@@ -64,38 +63,45 @@ public class Planner {
 		int boty = Integer.parseInt((String)bot.get(2));
 		
 		if(action == "LEFT"){
-			if(!collide(botx-1, boty)){//an empty space
-				for(int i = 1; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
-					if(Integer.parseInt(curr.getBlockLocation().get(i).get(1)) == botx){//see if a bot x intersects with a block
-						if(Integer.parseInt(curr.getBlockLocation().get(i).get(2)) == boty){//see if a bot y intersects with a block
+			if(!collide(botx-1, boty)){//an empty space update here
+				for(int i = 0; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
+					if(Integer.parseInt(curr.getBlockLocation().get(i).get(1)) == botx-1){//see if a bot x intersects with a block
+						if(Integer.parseInt(curr.getBlockLocation().get(i).get(2)) == boty){//see if a bot y intersects with a block update here
 							int blockCollied = i;
-							if(!collide(botx-2, boty)){
-								for(int j = 1; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
-									if(Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == botx-2){//see if there is a block at the pushed spot
-										if(Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == boty){
-											ArrayList ne = new ArrayList();
-											ArrayList x = curr.getBotLocation();
-											x.set(1,Integer.toString(botx-1));
-											ne.add(x);
-											for (int k = 0; k < curr.getBlockLocation().size(); k++){
-												ArrayList temp = curr.getBlockLocation().get(k);
-												if(k == blockCollied){
-													System.out.println(curr.getBlockLocation().get(k));
-													 temp.set(1,Integer.toString(botx-1));
-												}
-												ne.add(temp);
-
-											}
-											
-											
-											return new stateNode(ne, curr, "LEFT");
-										}
+							if(!collide(botx-2, boty)){//update here
+								boolean nothBlock = true;
+								for(int j = 0; j < curr.getBlockLocation().size(); j++){//check to see if collide with a block
+									if((Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == (botx-2) && Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == (boty))){//see if there is a block at the pushed spot
+										nothBlock = false;
 									}
 								}
+								if(nothBlock){
+									
+									ArrayList ne = new ArrayList();
+									ArrayList x = curr.getBotLocation();
+									x.set(1,Integer.toString(botx-1));//update here
+									ne.add(x);
+									for (int k = 0; k < curr.getBlockLocation().size(); k++){
+										ArrayList temp = curr.getBlockLocation().get(k);
+
+										if(k == blockCollied){
+											 temp.set(1,Integer.toString(botx-2));//update here
+										}
+										ne.add(temp);
+
+									}
+									return new stateNode(ne, curr, "LEFT");//update here
+								}else{
+									return null;//can't move this direction because other block blocking way
+								}
+							}else{
+								return null;//can't move because wall blocking block path
 							}
 						}
 					}
-				}//no block found next to bot
+				}
+				
+				//no block found next to bot
 				ArrayList ne = new ArrayList();
 				ArrayList x = curr.getBotLocation();
 				x.set(1,Integer.toString(botx-1));
@@ -104,41 +110,48 @@ public class Planner {
 					ne.add(curr.getBlockLocation().get(k));
 
 				}
-				return new stateNode(ne, curr, "LEFT");
+				return new stateNode(ne, curr, "DOWN");
 			}
-		
 		}else if(action == "RIGHT"){
-			if(!collide(botx+1, boty)){//an empty space
-				for(int i = 1; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
+			if(!collide(botx+1, boty)){//an empty space update here
+				for(int i = 0; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
 					if(Integer.parseInt(curr.getBlockLocation().get(i).get(1)) == botx+1){//see if a bot x intersects with a block
-						if(Integer.parseInt(curr.getBlockLocation().get(i).get(2)) == boty){//see if a bot y intersects with a block
+						if(Integer.parseInt(curr.getBlockLocation().get(i).get(2)) == boty){//see if a bot y intersects with a block update here
 							int blockCollied = i;
-							if(!collide(botx+2, boty)){
-								for(int j = 1; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
-									if(Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == botx+2){//see if there is a block at the pushed spot
-										if(Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == boty){
-											ArrayList ne = new ArrayList();
-											ArrayList x = curr.getBotLocation();
-											x.set(1,Integer.toString(botx+1));
-											ne.add(x);
-											for (int k = 0; k < curr.getBlockLocation().size(); k++){
-												ArrayList temp = curr.getBlockLocation().get(k);
-												if(k == blockCollied){
-													 temp.set(1,Integer.toString(botx+1));
-												}
-												ne.add(temp);
-
-											}
-											
-											
-											return new stateNode(ne, curr, "RIGHT");
-										}
+							if(!collide(botx+2, boty)){//update here
+								boolean nothBlock = true;
+								for(int j = 0; j < curr.getBlockLocation().size(); j++){//check to see if collide with a block
+									if((Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == (botx+2) && Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == (boty))){//see if there is a block at the pushed spot
+										nothBlock = false;
 									}
 								}
+								if(nothBlock){
+									
+									ArrayList ne = new ArrayList();
+									ArrayList x = curr.getBotLocation();
+									x.set(1,Integer.toString(botx+1));//update here
+									ne.add(x);
+									for (int k = 0; k < curr.getBlockLocation().size(); k++){
+										ArrayList temp = curr.getBlockLocation().get(k);
+
+										if(k == blockCollied){
+											 temp.set(1,Integer.toString(botx+2));//update here
+										}
+										ne.add(temp);
+
+									}
+									return new stateNode(ne, curr, "RIGHT");//update here
+								}else{
+									return null;//can't move this direction because other block blocking way
+								}
+							}else{
+								return null;//can't move because wall blocking block path
 							}
 						}
 					}
-				}//no block found next to bot
+				}
+				
+				//no block found next to bot
 				ArrayList ne = new ArrayList();
 				ArrayList x = curr.getBotLocation();
 				x.set(1,Integer.toString(botx+1));
@@ -149,39 +162,46 @@ public class Planner {
 				}
 				return new stateNode(ne, curr, "RIGHT");
 			}
-			
 		}else if(action == "UP"){
-			if(!collide(botx, boty-1)){//an empty space
-				for(int i = 1; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
+			if(!collide(botx, boty-1)){//an empty space update here
+				for(int i = 0; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
 					if(Integer.parseInt(curr.getBlockLocation().get(i).get(1)) == botx){//see if a bot x intersects with a block
-						if(Integer.parseInt(curr.getBlockLocation().get(i).get(2)) == boty-1){//see if a bot y intersects with a block
+						if(Integer.parseInt(curr.getBlockLocation().get(i).get(2)) == boty-1){//see if a bot y intersects with a block update here
 							int blockCollied = i;
-							if(!collide(botx, boty-2)){
-								for(int j = 1; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
-									if(Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == botx){//see if there is a block at the pushed spot
-										if(Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == boty-2){
-											ArrayList ne = new ArrayList();
-											ArrayList x = curr.getBotLocation();
-											x.set(2,Integer.toString(boty-1));
-											ne.add(x);
-											for (int k = 0; k < curr.getBlockLocation().size(); k++){
-												ArrayList temp = curr.getBlockLocation().get(k);
-												if(k == blockCollied){
-													 temp.set(2,Integer.toString(boty-1));
-												}
-												ne.add(temp);
-
-											}
-											
-											
-											return new stateNode(ne, curr, "UP");
-										}
+							if(!collide(botx, boty-2)){//update here
+								boolean nothBlock = true;
+								for(int j = 0; j < curr.getBlockLocation().size(); j++){//check to see if collide with a block
+									if((Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == botx && Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == (boty-2))){//see if there is a block at the pushed spot
+										nothBlock = false;
 									}
 								}
+								if(nothBlock){
+									
+									ArrayList ne = new ArrayList();
+									ArrayList x = curr.getBotLocation();
+									x.set(2,Integer.toString(boty-1));//update here
+									ne.add(x);
+									for (int k = 0; k < curr.getBlockLocation().size(); k++){
+										ArrayList temp = curr.getBlockLocation().get(k);
+
+										if(k == blockCollied){
+											 temp.set(2,Integer.toString(boty-2));//update here
+										}
+										ne.add(temp);
+
+									}
+									return new stateNode(ne, curr, "UP");//update here
+								}else{
+									return null;//can't move this direction because other block blocking way
+								}
+							}else{
+								return null;//can't move because wall blocking block path
 							}
 						}
 					}
-				}//no block found next to bot
+				}
+				
+				//no block found next to bot
 				ArrayList ne = new ArrayList();
 				ArrayList x = curr.getBotLocation();
 				x.set(2,Integer.toString(boty-1));
@@ -192,7 +212,6 @@ public class Planner {
 				}
 				return new stateNode(ne, curr, "UP");
 			}
-			
 		}else if(action == "DOWN"){
 			if(!collide(botx, boty+1)){//an empty space update here
 				for(int i = 0; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
@@ -200,30 +219,31 @@ public class Planner {
 						if(Integer.parseInt(curr.getBlockLocation().get(i).get(2)) == boty+1){//see if a bot y intersects with a block update here
 							int blockCollied = i;
 							if(!collide(botx, boty+2)){//update here
-								for(int j = 0; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
-									if(!(Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == botx && Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == (boty+2))){//see if there is a block at the pushed spot
-
-										ArrayList ne = new ArrayList();
-										ArrayList x = curr.getBotLocation();
-										x.set(2,Integer.toString(boty+1));//update here
-										ne.add(x);
-										for (int k = 0; k < curr.getBlockLocation().size(); k++){
-											ArrayList temp = curr.getBlockLocation().get(k);
-
-											if(k == blockCollied){
-
-												 temp.set(2,Integer.toString(boty+2));//update here
-
-											}
-											ne.add(temp);
-
-										}
-										
-										
-										return new stateNode(ne, curr, "DOWN");//update here
-										
+								boolean nothBlock = true;
+								for(int j = 0; j < curr.getBlockLocation().size(); j++){//check to see if collide with a block
+									if((Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == botx && Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == (boty+2))){//see if there is a block at the pushed spot
+										nothBlock = false;
 									}
-								}return null;//can't move this direction because other block blocking way
+								}
+								if(nothBlock){
+									
+									ArrayList ne = new ArrayList();
+									ArrayList x = curr.getBotLocation();
+									x.set(2,Integer.toString(boty+1));//update here
+									ne.add(x);
+									for (int k = 0; k < curr.getBlockLocation().size(); k++){
+										ArrayList temp = curr.getBlockLocation().get(k);
+
+										if(k == blockCollied){
+											 temp.set(2,Integer.toString(boty+2));//update here
+										}
+										ne.add(temp);
+
+									}
+									return new stateNode(ne, curr, "DOWN");//update here
+								}else{
+									return null;//can't move this direction because other block blocking way
+								}
 							}else{
 								return null;//can't move because wall blocking block path
 							}
