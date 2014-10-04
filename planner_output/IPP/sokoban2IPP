@@ -1,0 +1,140 @@
+
+ipp: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+ipp: parsing problem file
+problem 'SOKOBAN-2' defined
+ ... done.
+
+
+instantiated 76 actions
+
+
+time:   0,    56 facts and       0 exclusive pairs (   14,       0 positives)
+              57 ops   and       4 exclusive pairs
+time:   1,    60 facts and      12 exclusive pairs (   16,       4 positives)
+              63 ops   and      43 exclusive pairs
+time:   2,    62 facts and      18 exclusive pairs (   17,       6 positives)
+              68 ops   and     102 exclusive pairs
+time:   3,    68 facts and      76 exclusive pairs (   20,      22 positives)
+              79 ops   and     328 exclusive pairs
+time:   4,    75 facts and     157 exclusive pairs (   24,      50 positives)
+              94 ops   and     763 exclusive pairs
+time:   5,    81 facts and     201 exclusive pairs (   29,      93 positives)
+             109 ops   and    1287 exclusive pairs
+time:   6,    85 facts and     213 exclusive pairs (   32,     116 positives)
+             124 ops   and    2002 exclusive pairs
+time:   7,    91 facts and     311 exclusive pairs (   37,     194 positives)
+             135 ops   and    2632 exclusive pairs
+time:   8,    95 facts and     376 exclusive pairs (   40,     237 positives)
+             142 ops   and    2995 exclusive pairs
+time:   9,    97 facts and     351 exclusive pairs (   41,     225 positives)
+             152 ops   and    3655 exclusive pairs
+time:  10,   102 facts and     450 exclusive pairs (   46,     329 positives)
+             160 ops   and    4210 exclusive pairs
+time:  11,   105 facts and     487 exclusive pairs (   49,     387 positives)
+             165 ops   and    4492 exclusive pairs
+time:  12,   106 facts and     448 exclusive pairs (   50,     376 positives)
+             170 ops   and    4811 exclusive pairs
+time:  13,   108 facts and     468 exclusive pairs (   52,     411 positives)
+             172 ops   and    4837 exclusive pairs
+time:  14,   108 facts and     414 exclusive pairs (   52,     377 positives)
+             174 ops   and    4892 exclusive pairs
+time:  15,   108 facts and     376 exclusive pairs (   52,     353 positives)
+             178 ops   and    5232 exclusive pairs
+time:  16,   110 facts and     434 exclusive pairs (   54,     415 positives)
+
+goals first reachable in 16 time steps
+
+             181 ops   and    5486 exclusive pairs
+time:  17,   111 facts and     451 exclusive pairs (   55,     440 positives)
+             183 ops   and    5644 exclusive pairs
+time:  18,   112 facts and     476 exclusive pairs (   56,     468 positives)
+             184 ops   and    5702 exclusive pairs
+time:  19,   112 facts and     461 exclusive pairs (   56,     458 positives)
+             184 ops   and    5658 exclusive pairs
+time:  20,   112 facts and     453 exclusive pairs (   56,     450 positives)
+             184 ops   and    5629 exclusive pairs
+time:  21,   112 facts and     447 exclusive pairs (   56,     444 positives)
+             184 ops   and    5606 exclusive pairs
+time:  22,   112 facts and     442 exclusive pairs (   56,     439 positives)
+             184 ops   and    5588 exclusive pairs
+time:  23,   112 facts and     438 exclusive pairs (   56,     435 positives)
+             184 ops   and    5575 exclusive pairs
+time:  24,   112 facts and     436 exclusive pairs (   56,     433 positives)
+             184 ops   and    5568 exclusive pairs
+time:  25,   112 facts and     435 exclusive pairs (   56,     432 positives)
+
+graph has leveled off at time step 26
+
+             184 ops   and    5565 exclusive pairs
+time:  26,   112 facts and     435 exclusive pairs (   56,     432 positives)
+
+graph has leveled off! wave front mechanism is taking over
+
+expanding wave front to level   27
+expanding wave front to level   28
+expanding wave front to level   29
+expanding wave front to level   30
+expanding wave front to level   31
+expanding wave front to level   32
+
+
+found plan as follows:
+
+time step    0: MOVEBOT B1 A1 BOT UP
+time step    1: MOVEBOT A1 A2 BOT RIGHT
+time step    2: MOVEBOT A2 A3 BOT RIGHT
+time step    3: MOVEBLOCK A3 B3 C2 BOT BLOCK2 DOWN
+time step    4: MOVEBOT B3 A3 BOT UP
+time step    5: MOVEBOT A3 A2 BOT LEFT
+time step    6: MOVEBOT A2 A1 BOT LEFT
+time step    7: MOVEBOT A1 B1 BOT DOWN
+time step    8: MOVEBLOCK B1 B2 B3 BOT BLOCK1 RIGHT
+time step    9: MOVEBOT B2 C1 BOT DOWN
+time step   10: MOVEBLOCK C1 C2 C3 BOT BLOCK2 RIGHT
+time step   11: MOVEBOT C2 C1 BOT LEFT
+time step   12: MOVEBOT C1 B2 BOT UP
+time step   13: MOVEBOT B2 A2 BOT UP
+time step   14: MOVEBOT A2 A3 BOT RIGHT
+time step   15: MOVEBLOCK A3 B3 C2 BOT BLOCK1 DOWN
+time step   16: MOVEBOT B3 B4 BOT RIGHT
+time step   17: MOVEBLOCK B4 C3 D2 BOT BLOCK2 DOWN
+time step   18: MOVEBLOCK C3 D2 E1 BOT BLOCK2 DOWN
+time step   19: MOVEBLOCK D2 E1 F1 BOT BLOCK2 DOWN
+time step   20: MOVEBOT E1 D2 BOT UP
+time step   21: MOVEBOT D2 D1 BOT LEFT
+time step   22: MOVEBLOCK D1 C2 B3 BOT BLOCK1 UP
+time step   23: MOVEBOT C2 C3 BOT RIGHT
+time step   24: MOVEBOT C3 B4 BOT UP
+time step   25: MOVEBLOCK B4 B3 B2 BOT BLOCK1 LEFT
+time step   26: MOVEBOT B3 C2 BOT DOWN
+time step   27: MOVEBOT C2 C1 BOT LEFT
+time step   28: MOVEBLOCK C1 B2 A2 BOT BLOCK1 UP
+time step   29: MOVEBOT B2 B3 BOT RIGHT
+time step   30: MOVEBOT B3 A3 BOT UP
+time step   31: MOVEBLOCK A3 A2 A1 BOT BLOCK1 LEFT
+
+
+
+number of actions tried:       7261
+number of noops tried  :      59064
+
+had    4194 simple memoizing hits
+had     477 partial memoizing hits
+had    2235 subset memoizing hits
+
+time spent:    0.00 seconds instantiating 76 operators
+               0.00 seconds building graph
+               0.00 seconds calculating exclusions
+               0.04 seconds searching graph
+               0.04 seconds total time
+
+Memory used:   0.06 MBytes for domain representation
+               2.98 MBytes for graph
+               0.10 MBytes for exclusions
+               0.50 MBytes for memoization
+               0.16 MBytes for wave front
+
+
+

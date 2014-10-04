@@ -1,0 +1,276 @@
+
+ipp: parsing domain file
+domain 'SOKOBAN-DOMAIN' defined
+ ... done.
+ipp: parsing problem file
+problem 'SOKOBAN-3' defined
+ ... done.
+
+
+instantiated 168 actions
+
+
+time:   0,   123 facts and       0 exclusive pairs (   27,       0 positives)
+             125 ops   and       9 exclusive pairs
+time:   1,   129 facts and      18 exclusive pairs (   30,       6 positives)
+             136 ops   and     118 exclusive pairs
+time:   2,   137 facts and     102 exclusive pairs (   34,      29 positives)
+             149 ops   and     401 exclusive pairs
+time:   3,   142 facts and     175 exclusive pairs (   37,      55 positives)
+             160 ops   and     756 exclusive pairs
+time:   4,   146 facts and     241 exclusive pairs (   39,      73 positives)
+             168 ops   and    1068 exclusive pairs
+time:   5,   148 facts and     273 exclusive pairs (   40,      82 positives)
+             173 ops   and    1282 exclusive pairs
+time:   6,   152 facts and     357 exclusive pairs (   42,     105 positives)
+             181 ops   and    1684 exclusive pairs
+time:   7,   155 facts and     430 exclusive pairs (   44,     134 positives)
+             189 ops   and    2168 exclusive pairs
+time:   8,   162 facts and     660 exclusive pairs (   48,     208 positives)
+             201 ops   and    3024 exclusive pairs
+time:   9,   165 facts and     749 exclusive pairs (   51,     270 positives)
+             211 ops   and    3823 exclusive pairs
+time:  10,   173 facts and    1057 exclusive pairs (   56,     389 positives)
+             223 ops   and    4851 exclusive pairs
+time:  11,   176 facts and    1148 exclusive pairs (   58,     430 positives)
+             230 ops   and    5416 exclusive pairs
+time:  12,   178 facts and    1095 exclusive pairs (   59,     414 positives)
+             236 ops   and    5794 exclusive pairs
+time:  13,   182 facts and    1220 exclusive pairs (   62,     483 positives)
+             245 ops   and    6622 exclusive pairs
+time:  14,   186 facts and    1322 exclusive pairs (   65,     552 positives)
+             254 ops   and    7491 exclusive pairs
+time:  15,   191 facts and    1524 exclusive pairs (   69,     670 positives)
+             264 ops   and    8584 exclusive pairs
+time:  16,   195 facts and    1638 exclusive pairs (   72,     740 positives)
+             273 ops   and    9587 exclusive pairs
+time:  17,   198 facts and    1729 exclusive pairs (   75,     834 positives)
+             278 ops   and   10085 exclusive pairs
+time:  18,   199 facts and    1663 exclusive pairs (   76,     828 positives)
+             280 ops   and   10089 exclusive pairs
+time:  19,   199 facts and    1555 exclusive pairs (   76,     776 positives)
+             283 ops   and   10253 exclusive pairs
+time:  20,   199 facts and    1417 exclusive pairs (   76,     712 positives)
+             288 ops   and   10749 exclusive pairs
+time:  21,   203 facts and    1597 exclusive pairs (   80,     863 positives)
+             295 ops   and   11643 exclusive pairs
+time:  22,   205 facts and    1621 exclusive pairs (   82,     910 positives)
+             300 ops   and   12235 exclusive pairs
+time:  23,   207 facts and    1676 exclusive pairs (   84,     970 positives)
+             304 ops   and   12700 exclusive pairs
+time:  24,   208 facts and    1657 exclusive pairs (   85,     975 positives)
+             308 ops   and   13195 exclusive pairs
+time:  25,   209 facts and    1659 exclusive pairs (   86,     989 positives)
+             312 ops   and   13725 exclusive pairs
+time:  26,   210 facts and    1649 exclusive pairs (   87,     993 positives)
+             316 ops   and   14226 exclusive pairs
+time:  27,   212 facts and    1691 exclusive pairs (   89,    1036 positives)
+             321 ops   and   14873 exclusive pairs
+time:  28,   214 facts and    1715 exclusive pairs (   91,    1068 positives)
+             324 ops   and   15134 exclusive pairs
+time:  29,   214 facts and    1621 exclusive pairs (   91,    1007 positives)
+             326 ops   and   15233 exclusive pairs
+time:  30,   214 facts and    1510 exclusive pairs (   91,     933 positives)
+             329 ops   and   15457 exclusive pairs
+time:  31,   215 facts and    1476 exclusive pairs (   92,     913 positives)
+             332 ops   and   15674 exclusive pairs
+time:  32,   216 facts and    1422 exclusive pairs (   93,     885 positives)
+             334 ops   and   15706 exclusive pairs
+time:  33,   216 facts and    1341 exclusive pairs (   93,     832 positives)
+             336 ops   and   15857 exclusive pairs
+time:  34,   216 facts and    1273 exclusive pairs (   93,     795 positives)
+             337 ops   and   15879 exclusive pairs
+time:  35,   217 facts and    1297 exclusive pairs (   94,     819 positives)
+             339 ops   and   16143 exclusive pairs
+time:  36,   218 facts and    1322 exclusive pairs (   95,     845 positives)
+             341 ops   and   16428 exclusive pairs
+time:  37,   219 facts and    1362 exclusive pairs (   96,     879 positives)
+             343 ops   and   16735 exclusive pairs
+time:  38,   219 facts and    1330 exclusive pairs (   96,     860 positives)
+             343 ops   and   16661 exclusive pairs
+time:  39,   219 facts and    1315 exclusive pairs (   96,     849 positives)
+             343 ops   and   16604 exclusive pairs
+time:  40,   219 facts and    1292 exclusive pairs (   96,     834 positives)
+             343 ops   and   16537 exclusive pairs
+time:  41,   219 facts and    1271 exclusive pairs (   96,     818 positives)
+             343 ops   and   16466 exclusive pairs
+time:  42,   219 facts and    1248 exclusive pairs (   96,     803 positives)
+             343 ops   and   16407 exclusive pairs
+time:  43,   219 facts and    1233 exclusive pairs (   96,     793 positives)
+
+goals first reachable in 43 time steps
+
+             344 ops   and   16564 exclusive pairs
+time:  44,   219 facts and    1221 exclusive pairs (   96,     786 positives)
+             345 ops   and   16732 exclusive pairs
+time:  45,   219 facts and    1212 exclusive pairs (   96,     780 positives)
+             345 ops   and   16705 exclusive pairs
+time:  46,   219 facts and    1208 exclusive pairs (   96,     778 positives)
+             345 ops   and   16697 exclusive pairs
+time:  47,   219 facts and    1206 exclusive pairs (   96,     777 positives)
+
+graph has leveled off at time step 48
+
+             345 ops   and   16693 exclusive pairs
+time:  48,   219 facts and    1206 exclusive pairs (   96,     777 positives)
+
+graph has leveled off! wave front mechanism is taking over
+
+expanding wave front to level   49
+expanding wave front to level   50
+expanding wave front to level   51
+expanding wave front to level   52
+expanding wave front to level   53
+expanding wave front to level   54
+expanding wave front to level   55
+expanding wave front to level   56
+expanding wave front to level   57
+expanding wave front to level   58
+expanding wave front to level   59
+expanding wave front to level   60
+expanding wave front to level   61
+expanding wave front to level   62
+expanding wave front to level   63
+expanding wave front to level   64
+expanding wave front to level   65
+expanding wave front to level   66
+expanding wave front to level   67
+expanding wave front to level   68
+expanding wave front to level   69
+expanding wave front to level   70
+expanding wave front to level   71
+expanding wave front to level   72
+expanding wave front to level   73
+expanding wave front to level   74
+expanding wave front to level   75
+expanding wave front to level   76
+expanding wave front to level   77
+expanding wave front to level   78
+expanding wave front to level   79
+expanding wave front to level   80
+expanding wave front to level   81
+expanding wave front to level   82
+expanding wave front to level   83
+expanding wave front to level   84
+expanding wave front to level   85
+expanding wave front to level   86
+expanding wave front to level   87
+expanding wave front to level   88
+expanding wave front to level   89
+
+
+found plan as follows:
+
+time step    0: MOVEBOT D2 D3 BOT RIGHT
+time step    1: MOVEBOT D3 E2 BOT DOWN
+time step    2: MOVEBOT E2 F3 BOT DOWN
+time step    3: MOVEBOT F3 F4 BOT RIGHT
+time step    4: MOVEBOT F4 F5 BOT RIGHT
+time step    5: MOVEBOT F5 E3 BOT UP
+time step    6: MOVEBOT E3 D5 BOT UP
+time step    7: MOVEBLOCK D5 D4 D3 BOT BLOCK3 LEFT
+time step    8: MOVEBLOCK D4 D3 D2 BOT BLOCK3 LEFT
+time step    9: MOVEBOT D3 E2 BOT DOWN
+time step   10: MOVEBOT E2 F3 BOT DOWN
+time step   11: MOVEBOT F3 F4 BOT RIGHT
+time step   12: MOVEBOT F4 F5 BOT RIGHT
+time step   13: MOVEBOT F5 F6 BOT RIGHT
+time step   14: MOVEBOT F6 F7 BOT RIGHT
+time step   15: MOVEBOT F7 E4 BOT UP
+time step   16: MOVEBOT E4 D7 BOT UP
+time step   17: MOVEBOT D7 C1 BOT UP
+time step   18: MOVEBOT C1 B1 BOT UP
+time step   19: MOVEBOT B1 A1 BOT UP
+time step   20: MOVEBOT A1 A2 BOT RIGHT
+time step   21: MOVEBOT A2 A3 BOT RIGHT
+time step   22: MOVEBOT A3 B2 BOT DOWN
+time step   23: MOVEBOT B2 C2 BOT DOWN
+time step   24: MOVEBOT C2 D9 BOT DOWN
+time step   25: MOVEBLOCK D9 D8 D7 BOT BLOCK1 LEFT
+time step   26: MOVEBOT D8 D9 BOT RIGHT
+time step   27: MOVEBOT D9 C2 BOT UP
+time step   28: MOVEBOT C2 B2 BOT UP
+time step   29: MOVEBOT B2 A3 BOT UP
+time step   30: MOVEBOT A3 A2 BOT LEFT
+time step   31: MOVEBOT A2 A1 BOT LEFT
+time step   32: MOVEBOT A1 B1 BOT DOWN
+time step   33: MOVEBOT B1 C1 BOT DOWN
+time step   34: MOVEBLOCK C1 D7 E4 BOT BLOCK1 DOWN
+time step   35: MOVEBLOCK D7 D6 D5 BOT BLOCK2 LEFT
+time step   36: MOVEBLOCK D6 D5 D4 BOT BLOCK2 LEFT
+time step   37: MOVEBOT D5 E3 BOT DOWN
+time step   38: MOVEBOT E3 F5 BOT DOWN
+time step   39: MOVEBOT F5 F6 BOT RIGHT
+time step   40: MOVEBOT F6 F7 BOT RIGHT
+time step   41: MOVEBLOCK F7 E4 D7 BOT BLOCK1 UP
+time step   42: MOVEBLOCK E4 D7 C1 BOT BLOCK1 UP
+time step   43: MOVEBLOCK D7 C1 B1 BOT BLOCK1 UP
+time step   44: MOVEBLOCK C1 B1 A1 BOT BLOCK1 UP
+time step   45: MOVEBOT B1 C1 BOT DOWN
+time step   46: MOVEBOT C1 D7 BOT DOWN
+time step   47: MOVEBOT D7 D6 BOT LEFT
+time step   48: MOVEBOT D6 D5 BOT LEFT
+time step   49: MOVEBOT D5 E3 BOT DOWN
+time step   50: MOVEBOT E3 F5 BOT DOWN
+time step   51: MOVEBOT F5 F4 BOT LEFT
+time step   52: MOVEBOT F4 F3 BOT LEFT
+time step   53: MOVEBOT F3 E2 BOT UP
+time step   54: MOVEBOT E2 D3 BOT UP
+time step   55: MOVEBLOCK D3 D4 D5 BOT BLOCK2 RIGHT
+time step   56: MOVEBLOCK D4 D5 D6 BOT BLOCK2 RIGHT
+time step   57: MOVEBLOCK D5 D6 D7 BOT BLOCK2 RIGHT
+time step   58: MOVEBOT D6 D5 BOT LEFT
+time step   59: MOVEBOT D5 E3 BOT DOWN
+time step   60: MOVEBOT E3 F5 BOT DOWN
+time step   61: MOVEBOT F5 F6 BOT RIGHT
+time step   62: MOVEBOT F6 F7 BOT RIGHT
+time step   63: MOVEBOT F7 E4 BOT UP
+time step   64: MOVEBLOCK E4 D7 C1 BOT BLOCK2 UP
+time step   65: MOVEBLOCK D7 C1 B1 BOT BLOCK2 UP
+time step   66: MOVEBOT C1 D7 BOT DOWN
+time step   67: MOVEBOT D7 D6 BOT LEFT
+time step   68: MOVEBOT D6 D5 BOT LEFT
+time step   69: MOVEBOT D5 E3 BOT DOWN
+time step   70: MOVEBOT E3 F5 BOT DOWN
+time step   71: MOVEBOT F5 F4 BOT LEFT
+time step   72: MOVEBOT F4 F3 BOT LEFT
+time step   73: MOVEBOT F3 F2 BOT LEFT
+time step   74: MOVEBOT F2 F1 BOT LEFT
+time step   75: MOVEBOT F1 E1 BOT UP
+time step   76: MOVEBOT E1 D1 BOT UP
+time step   77: MOVEBLOCK D1 D2 D3 BOT BLOCK3 RIGHT
+time step   78: MOVEBLOCK D2 D3 D4 BOT BLOCK3 RIGHT
+time step   79: MOVEBLOCK D3 D4 D5 BOT BLOCK3 RIGHT
+time step   80: MOVEBLOCK D4 D5 D6 BOT BLOCK3 RIGHT
+time step   81: MOVEBLOCK D5 D6 D7 BOT BLOCK3 RIGHT
+time step   82: MOVEBOT D6 D5 BOT LEFT
+time step   83: MOVEBOT D5 E3 BOT DOWN
+time step   84: MOVEBOT E3 F5 BOT DOWN
+time step   85: MOVEBOT F5 F6 BOT RIGHT
+time step   86: MOVEBOT F6 F7 BOT RIGHT
+time step   87: MOVEBOT F7 E4 BOT UP
+time step   88: MOVEBLOCK E4 D7 C1 BOT BLOCK3 UP
+
+
+
+number of actions tried:      35940
+number of noops tried  :     668114
+
+had   26022 simple memoizing hits
+had    1202 partial memoizing hits
+had    6811 subset memoizing hits
+
+time spent:    0.00 seconds instantiating 168 operators
+               0.00 seconds building graph
+               0.02 seconds calculating exclusions
+               0.56 seconds searching graph
+               0.58 seconds total time
+
+Memory used:   0.12 MBytes for domain representation
+               9.61 MBytes for graph
+               0.53 MBytes for exclusions
+               4.43 MBytes for memoization
+               4.30 MBytes for wave front
+
+
+

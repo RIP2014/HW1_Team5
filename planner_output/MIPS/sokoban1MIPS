@@ -1,0 +1,19 @@
+; NrActions 14
+; MakeSpan 
+; MetricValue 
+; PlanningTechnique bidirectional symbolic breadth-first search 
+
+0: (movebot.b1.c2.bot1.down) [1]
+1: (movebot.c2.c3.bot1.right) [1]
+2: (movebot.c3.c4.bot1.right) [1]
+3: (movebot.c4.d4.bot1.down) [1]
+4: (moveblock.d4.d3.d2.bot1.block1.left) [1]
+5: (movebot.d3.c3.bot1.up) [1]
+6: (movebot.c3.c2.bot1.left) [1]
+7: (movebot.c2.c1.bot1.left) [1]
+8: (movebot.c1.d1.bot1.down) [1]
+9: (movebot.d1.e1.bot1.down) [1]
+10: (movebot.e1.e2.bot1.right) [1]
+11: (moveblock.e2.d2.c2.bot1.block1.up) [1]
+12: (moveblock.d2.c2.b1.bot1.block1.up) [1]
+13: (moveblock.c2.b1.a2.bot1.block1.up) [1]
