@@ -1,0 +1,306 @@
+a. 
+    Problem 1:
+    
+    IPP:
+
+    found plan as follows:
+
+        time step    0: MOVEBOT B1 C2 BOT1 DOWN
+        time step    1: MOVEBOT C2 C3 BOT1 RIGHT
+        time step    2: MOVEBOT C3 C4 BOT1 RIGHT
+        time step    3: MOVEBOT C4 D4 BOT1 DOWN
+        time step    4: MOVEBLOCK D4 D3 D2 BOT1 BLOCK1 LEFT
+        time step    5: MOVEBOT D3 C3 BOT1 UP
+        time step    6: MOVEBOT C3 C2 BOT1 LEFT
+        time step    7: MOVEBOT C2 C1 BOT1 LEFT
+        time step    8: MOVEBOT C1 D1 BOT1 DOWN
+        time step    9: MOVEBOT D1 E1 BOT1 DOWN
+        time step   10: MOVEBOT E1 E2 BOT1 RIGHT
+        time step   11: MOVEBLOCK E2 D2 C2 BOT1 BLOCK1 UP
+        time step   12: MOVEBLOCK D2 C2 B1 BOT1 BLOCK1 UP
+        time step   13: MOVEBLOCK C2 B1 A2 BOT1 BLOCK1 UP
+
+    MIPS:
+
+    0: (movebot.b1.c2.bot1.down) [1]
+    1: (movebot.c2.c3.bot1.right) [1]
+    2: (movebot.c3.c4.bot1.right) [1]
+    3: (movebot.c4.d4.bot1.down) [1]
+    4: (moveblock.d4.d3.d2.bot1.block1.left) [1]
+    5: (movebot.d3.c3.bot1.up) [1]
+    6: (movebot.c3.c2.bot1.left) [1]
+    7: (movebot.c2.c1.bot1.left) [1]
+    8: (movebot.c1.d1.bot1.down) [1]
+    9: (movebot.d1.e1.bot1.down) [1]
+    10: (movebot.e1.e2.bot1.right) [1]
+    11: (moveblock.e2.d2.c2.bot1.block1.up) [1]
+    12: (moveblock.d2.c2.b1.bot1.block1.up) [1]
+    13: (moveblock.c2.b1.a2.bot1.block1.up) [1]
+    
+    Problem 2:
+
+    IPP:
+
+     found plan as follows:
+
+        time step    0: MOVEBOT B1 A1 BOT UP
+        time step    1: MOVEBOT A1 A2 BOT RIGHT
+        time step    2: MOVEBOT A2 A3 BOT RIGHT
+        time step    3: MOVEBLOCK A3 B3 C2 BOT BLOCK2 DOWN
+        time step    4: MOVEBOT B3 A3 BOT UP
+        time step    5: MOVEBOT A3 A2 BOT LEFT
+        time step    6: MOVEBOT A2 A1 BOT LEFT
+        time step    7: MOVEBOT A1 B1 BOT DOWN
+        time step    8: MOVEBLOCK B1 B2 B3 BOT BLOCK1 RIGHT
+        time step    9: MOVEBOT B2 C1 BOT DOWN
+        time step   10: MOVEBLOCK C1 C2 C3 BOT BLOCK2 RIGHT
+        time step   11: MOVEBOT C2 C1 BOT LEFT
+        time step   12: MOVEBOT C1 B2 BOT UP
+        time step   13: MOVEBOT B2 A2 BOT UP
+        time step   14: MOVEBOT A2 A3 BOT RIGHT
+        time step   15: MOVEBLOCK A3 B3 C2 BOT BLOCK1 DOWN
+        time step   16: MOVEBOT B3 B4 BOT RIGHT
+        time step   17: MOVEBLOCK B4 C3 D2 BOT BLOCK2 DOWN
+        time step   18: MOVEBLOCK C3 D2 E1 BOT BLOCK2 DOWN
+        time step   19: MOVEBLOCK D2 E1 F1 BOT BLOCK2 DOWN
+        time step   20: MOVEBOT E1 D2 BOT UP
+        time step   21: MOVEBOT D2 D1 BOT LEFT
+        time step   22: MOVEBLOCK D1 C2 B3 BOT BLOCK1 UP
+        time step   23: MOVEBOT C2 C3 BOT RIGHT
+        time step   24: MOVEBOT C3 B4 BOT UP
+        time step   25: MOVEBLOCK B4 B3 B2 BOT BLOCK1 LEFT
+        time step   26: MOVEBOT B3 C2 BOT DOWN
+        time step   27: MOVEBOT C2 C1 BOT LEFT
+        time step   28: MOVEBLOCK C1 B2 A2 BOT BLOCK1 UP
+        time step   29: MOVEBOT B2 B3 BOT RIGHT
+        time step   30: MOVEBOT B3 A3 BOT UP
+        time step   31: MOVEBLOCK A3 A2 A1 BOT BLOCK1 LEFT
+   
+    MIPS:
+
+        0: (movebot.b1.a1.bot.up) [1]
+        1: (movebot.a1.a2.bot.right) [1]
+        2: (movebot.a2.a3.bot.right) [1]
+        3: (moveblock.a3.b3.c2.bot.block2.down) [1]
+        4: (movebot.b3.a3.bot.up) [1]
+        5: (movebot.a3.a2.bot.left) [1]
+        6: (movebot.a2.a1.bot.left) [1]
+        7: (movebot.a1.b1.bot.down) [1]
+        8: (moveblock.b1.b2.b3.bot.block1.right) [1]
+        9: (movebot.b2.c1.bot.down) [1]
+        10: (moveblock.c1.c2.c3.bot.block2.right) [1]
+        11: (movebot.c2.c1.bot.left) [1]
+        12: (movebot.c1.b2.bot.up) [1]
+        13: (movebot.b2.a2.bot.up) [1]
+        14: (movebot.a2.a3.bot.right) [1]
+        15: (moveblock.a3.b3.c2.bot.block1.down) [1]
+        16: (movebot.b3.b4.bot.right) [1]
+        17: (moveblock.b4.c3.d2.bot.block2.down) [1]
+        18: (moveblock.c3.d2.e1.bot.block2.down) [1]
+        19: (moveblock.d2.e1.f1.bot.block2.down) [1]
+        20: (movebot.e1.d2.bot.up) [1]
+        21: (movebot.d2.d1.bot.left) [1]
+        22: (moveblock.d1.c2.b3.bot.block1.up) [1]
+        23: (movebot.c2.c3.bot.right) [1]
+        24: (movebot.c3.b4.bot.up) [1]
+        25: (moveblock.b4.b3.b2.bot.block1.left) [1]
+        26: (movebot.b3.c2.bot.down) [1]
+        27: (movebot.c2.c1.bot.left) [1]
+        28: (moveblock.c1.b2.a2.bot.block1.up) [1]
+        29: (movebot.b2.b3.bot.right) [1]
+        30: (movebot.b3.a3.bot.up) [1]
+        31: (moveblock.a3.a2.a1.bot.block1.left) [1]
+
+    Problem 3:
+
+    IPP:
+    
+    found plan as follows:
+
+        time step    0: MOVEBOT D2 D3 BOT RIGHT
+        time step    1: MOVEBOT D3 E2 BOT DOWN
+        time step    2: MOVEBOT E2 F3 BOT DOWN
+        time step    3: MOVEBOT F3 F4 BOT RIGHT
+        time step    4: MOVEBOT F4 F5 BOT RIGHT
+        time step    5: MOVEBOT F5 E3 BOT UP
+        time step    6: MOVEBOT E3 D5 BOT UP
+        time step    7: MOVEBLOCK D5 D4 D3 BOT BLOCK3 LEFT
+        time step    8: MOVEBLOCK D4 D3 D2 BOT BLOCK3 LEFT
+        time step    9: MOVEBOT D3 E2 BOT DOWN
+        time step   10: MOVEBOT E2 F3 BOT DOWN
+        time step   11: MOVEBOT F3 F4 BOT RIGHT
+        time step   12: MOVEBOT F4 F5 BOT RIGHT
+        time step   13: MOVEBOT F5 F6 BOT RIGHT
+        time step   14: MOVEBOT F6 F7 BOT RIGHT
+        time step   15: MOVEBOT F7 E4 BOT UP
+        time step   16: MOVEBOT E4 D7 BOT UP
+        time step   17: MOVEBOT D7 C1 BOT UP
+        time step   18: MOVEBOT C1 B1 BOT UP
+        time step   19: MOVEBOT B1 A1 BOT UP
+        time step   20: MOVEBOT A1 A2 BOT RIGHT
+        time step   21: MOVEBOT A2 A3 BOT RIGHT
+        time step   22: MOVEBOT A3 B2 BOT DOWN
+        time step   23: MOVEBOT B2 C2 BOT DOWN
+        time step   24: MOVEBOT C2 D9 BOT DOWN
+        time step   25: MOVEBLOCK D9 D8 D7 BOT BLOCK1 LEFT
+        time step   26: MOVEBOT D8 D9 BOT RIGHT
+        time step   27: MOVEBOT D9 C2 BOT UP
+        time step   28: MOVEBOT C2 B2 BOT UP
+        time step   29: MOVEBOT B2 A3 BOT UP
+        time step   30: MOVEBOT A3 A2 BOT LEFT
+        time step   31: MOVEBOT A2 A1 BOT LEFT
+        time step   32: MOVEBOT A1 B1 BOT DOWN
+        time step   33: MOVEBOT B1 C1 BOT DOWN
+        time step   34: MOVEBLOCK C1 D7 E4 BOT BLOCK1 DOWN
+        time step   35: MOVEBLOCK D7 D6 D5 BOT BLOCK2 LEFT
+        time step   36: MOVEBLOCK D6 D5 D4 BOT BLOCK2 LEFT
+        time step   37: MOVEBOT D5 E3 BOT DOWN
+        time step   38: MOVEBOT E3 F5 BOT DOWN
+        time step   39: MOVEBOT F5 F6 BOT RIGHT
+        time step   40: MOVEBOT F6 F7 BOT RIGHT
+        time step   41: MOVEBLOCK F7 E4 D7 BOT BLOCK1 UP
+        time step   42: MOVEBLOCK E4 D7 C1 BOT BLOCK1 UP
+        time step   43: MOVEBLOCK D7 C1 B1 BOT BLOCK1 UP
+        time step   44: MOVEBLOCK C1 B1 A1 BOT BLOCK1 UP
+        time step   45: MOVEBOT B1 C1 BOT DOWN
+        time step   46: MOVEBOT C1 D7 BOT DOWN
+        time step   47: MOVEBOT D7 D6 BOT LEFT
+        time step   48: MOVEBOT D6 D5 BOT LEFT
+        time step   49: MOVEBOT D5 E3 BOT DOWN
+        time step   50: MOVEBOT E3 F5 BOT DOWN
+        time step   51: MOVEBOT F5 F4 BOT LEFT
+        time step   52: MOVEBOT F4 F3 BOT LEFT
+        time step   53: MOVEBOT F3 E2 BOT UP
+        time step   54: MOVEBOT E2 D3 BOT UP
+        time step   55: MOVEBLOCK D3 D4 D5 BOT BLOCK2 RIGHT
+        time step   56: MOVEBLOCK D4 D5 D6 BOT BLOCK2 RIGHT
+        time step   57: MOVEBLOCK D5 D6 D7 BOT BLOCK2 RIGHT
+        time step   58: MOVEBOT D6 D5 BOT LEFT
+        time step   59: MOVEBOT D5 E3 BOT DOWN
+        time step   60: MOVEBOT E3 F5 BOT DOWN
+        time step   61: MOVEBOT F5 F6 BOT RIGHT
+        time step   62: MOVEBOT F6 F7 BOT RIGHT
+        time step   63: MOVEBOT F7 E4 BOT UP
+        time step   64: MOVEBLOCK E4 D7 C1 BOT BLOCK2 UP
+        time step   65: MOVEBLOCK D7 C1 B1 BOT BLOCK2 UP
+        time step   66: MOVEBOT C1 D7 BOT DOWN
+        time step   67: MOVEBOT D7 D6 BOT LEFT
+        time step   68: MOVEBOT D6 D5 BOT LEFT
+        time step   69: MOVEBOT D5 E3 BOT DOWN
+        time step   70: MOVEBOT E3 F5 BOT DOWN
+        time step   71: MOVEBOT F5 F4 BOT LEFT
+        time step   72: MOVEBOT F4 F3 BOT LEFT
+        time step   73: MOVEBOT F3 F2 BOT LEFT
+        time step   74: MOVEBOT F2 F1 BOT LEFT
+        time step   75: MOVEBOT F1 E1 BOT UP
+        time step   76: MOVEBOT E1 D1 BOT UP
+        time step   77: MOVEBLOCK D1 D2 D3 BOT BLOCK3 RIGHT
+        time step   78: MOVEBLOCK D2 D3 D4 BOT BLOCK3 RIGHT
+        time step   79: MOVEBLOCK D3 D4 D5 BOT BLOCK3 RIGHT
+        time step   80: MOVEBLOCK D4 D5 D6 BOT BLOCK3 RIGHT
+        time step   81: MOVEBLOCK D5 D6 D7 BOT BLOCK3 RIGHT
+        time step   82: MOVEBOT D6 D5 BOT LEFT
+        time step   83: MOVEBOT D5 E3 BOT DOWN
+        time step   84: MOVEBOT E3 F5 BOT DOWN
+        time step   85: MOVEBOT F5 F6 BOT RIGHT
+        time step   86: MOVEBOT F6 F7 BOT RIGHT
+        time step   87: MOVEBOT F7 E4 BOT UP
+        time step   88: MOVEBLOCK E4 D7 C1 BOT BLOCK3 UP
+
+    MIPS:
+
+        0: (movebot.d2.d3.bot.right) [1]
+        1: (movebot.d3.e2.bot.down) [1]
+        2: (movebot.e2.f3.bot.down) [1]
+        3: (movebot.f3.f4.bot.right) [1]
+        4: (movebot.f4.f5.bot.right) [1]
+        5: (movebot.f5.e3.bot.up) [1]
+        6: (movebot.e3.d5.bot.up) [1]
+        7: (moveblock.d5.d4.d3.bot.block3.left) [1]
+        8: (moveblock.d4.d3.d2.bot.block3.left) [1]
+        9: (movebot.d3.e2.bot.down) [1]
+        10: (movebot.e2.f3.bot.down) [1]
+        11: (movebot.f3.f4.bot.right) [1]
+        12: (movebot.f4.f5.bot.right) [1]
+        13: (movebot.f5.f6.bot.right) [1]
+        14: (movebot.f6.f7.bot.right) [1]
+        15: (movebot.f7.e4.bot.up) [1]
+        16: (movebot.e4.d7.bot.up) [1]
+        17: (movebot.d7.c1.bot.up) [1]
+        18: (movebot.c1.b1.bot.up) [1]
+        19: (movebot.b1.a1.bot.up) [1]
+        20: (movebot.a1.a2.bot.right) [1]
+        21: (movebot.a2.a3.bot.right) [1]
+        22: (movebot.a3.b2.bot.down) [1]
+        23: (movebot.b2.c2.bot.down) [1]
+        24: (movebot.c2.d9.bot.down) [1]
+        25: (moveblock.d9.d8.d7.bot.block1.left) [1]
+        26: (movebot.d8.d9.bot.right) [1]
+        27: (movebot.d9.c2.bot.up) [1]
+        28: (movebot.c2.b2.bot.up) [1]
+        29: (movebot.b2.a3.bot.up) [1]
+        30: (movebot.a3.a2.bot.left) [1]
+        31: (movebot.a2.a1.bot.left) [1]
+        32: (movebot.a1.b1.bot.down) [1]
+        33: (movebot.b1.c1.bot.down) [1]
+        34: (moveblock.c1.d7.e4.bot.block1.down) [1]
+        35: (moveblock.d7.d6.d5.bot.block2.left) [1]
+        36: (moveblock.d6.d5.d4.bot.block2.left) [1]
+        37: (movebot.d5.e3.bot.down) [1]
+        38: (movebot.e3.f5.bot.down) [1]
+        39: (movebot.f5.f6.bot.right) [1]
+        40: (movebot.f6.f7.bot.right) [1]
+        41: (moveblock.f7.e4.d7.bot.block1.up) [1]
+        42: (moveblock.e4.d7.c1.bot.block1.up) [1]
+        43: (moveblock.d7.c1.b1.bot.block1.up) [1]
+        44: (moveblock.c1.b1.a1.bot.block1.up) [1]
+        45: (movebot.b1.c1.bot.down) [1]
+        46: (movebot.c1.d7.bot.down) [1]
+        47: (movebot.d7.e4.bot.down) [1]
+        48: (movebot.e4.f7.bot.down) [1]
+        49: (movebot.f7.f6.bot.left) [1]
+        50: (movebot.f6.f5.bot.left) [1]
+        51: (movebot.f5.f4.bot.left) [1]
+        52: (movebot.f4.f3.bot.left) [1]
+        53: (movebot.f3.e2.bot.up) [1]
+        54: (movebot.e2.d3.bot.up) [1]
+        55: (moveblock.d3.d4.d5.bot.block2.right) [1]
+        56: (moveblock.d4.d5.d6.bot.block2.right) [1]
+        57: (moveblock.d5.d6.d7.bot.block2.right) [1]
+        58: (movebot.d6.d5.bot.left) [1]
+        59: (movebot.d5.e3.bot.down) [1]
+        60: (movebot.e3.f5.bot.down) [1]
+        61: (movebot.f5.f6.bot.right) [1]
+        62: (movebot.f6.f7.bot.right) [1]
+        63: (movebot.f7.e4.bot.up) [1]
+        64: (moveblock.e4.d7.c1.bot.block2.up) [1]
+        65: (moveblock.d7.c1.b1.bot.block2.up) [1]
+        66: (movebot.c1.d7.bot.down) [1]
+        67: (movebot.d7.e4.bot.down) [1]
+        68: (movebot.e4.f7.bot.down) [1]
+        69: (movebot.f7.f6.bot.left) [1]
+        70: (movebot.f6.f5.bot.left) [1]
+        71: (movebot.f5.f4.bot.left) [1]
+        72: (movebot.f4.f3.bot.left) [1]
+        73: (movebot.f3.f2.bot.left) [1]
+        74: (movebot.f2.f1.bot.left) [1]
+        75: (movebot.f1.e1.bot.up) [1]
+        76: (movebot.e1.d1.bot.up) [1]
+        77: (moveblock.d1.d2.d3.bot.block3.right) [1]
+        78: (moveblock.d2.d3.d4.bot.block3.right) [1]
+        79: (moveblock.d3.d4.d5.bot.block3.right) [1]
+        80: (moveblock.d4.d5.d6.bot.block3.right) [1]
+        81: (moveblock.d5.d6.d7.bot.block3.right) [1]
+        82: (movebot.d6.d5.bot.left) [1]
+        83: (movebot.d5.e3.bot.down) [1]
+        84: (movebot.e3.f5.bot.down) [1]
+        85: (movebot.f5.f6.bot.right) [1]
+        86: (movebot.f6.f7.bot.right) [1]
+        87: (movebot.f7.e4.bot.up) [1]
+        88: (moveblock.e4.d7.c1.bot.block3.up) [1]
+       
+b. The two planners chosen for comparion are IPP and MIPS. IPP is a Graphplan descendant parallel regression planner, and MIPS is a BDD-based planner that performs forward-chaining and breadth-first search. Both planners are optimal and this showed in the fact that both computed the minimum number of steps needed to solve the problems. However, it was clear in the total time taken that IPP computed the solution much faster than MIPS. IPP took 0.00, 0.04, and 0.58 to solve problems 1, 2, and 3, respectively. Conversely, MIPS took 0.57, 0.64, 11.29 on those problems 1-3. The versions of MIPS and IPP tested both were developed around the year 2000 and thus there is not expected to be a major advantage for one or the other because of more knowledge or better computers. Instead, taking a look at the internals of the algorithms taken by the planners will tell why IPP is faster. For example, IPP is a "parallel planner" which means that actions that do not interfere with each other are run simultaneously. Thus, with each time step, one or more actions may be completed. This is a huge advantage over the sequential BFS performed by MIPS. Also, IPP computes an admissible heuristic with each problem by developing a graph, level by level, in order to see what actions can be computed at each time step to make the desired goal states to be true. It does not look like MIPS uses any sort of admissible heuristic in its BFS.
+
+c. The difficult thing comes from the fact that these planners like to define everything in forms of states. This is great in terms of being very explicit and detailed in every part of solving the problem. The issue comes when those states grow exponentially with all the different actions that can be taken at any one state. In the case of the sokoban problem, states must be made for each of the possible moves that the robot can make. Each of those actions then have nested actions and states that must represent them. Thus, the memory space needed for these graphs as well as the time for constructing them can be quite large. Semantic planning excels at problems that are far more finite and fit well to every state and situation of the problem being pre-planned before simple path searching algorithms are employed.
+
+d. Problems that have only one action are those that suit themselves to classical planning. Additionally, the possible variables that can be filled in as arguments for those actions needs to be limited. This is because a minimal number of states is the chief goal for a classical planner that wants to solve things quickly. Thus, the blocks world problem where one attempts to move a stack of blocks from one configuration to another is an example of something that achieves this goal. The only action is to move a block, and ther are only a small handful of possible blocks that can be moved at any one time. Another problem that would be solved well with classical planning is the "Number Slider Puzzles" that are 4x4 grids with 15 'sliders' in them that are numbered 1-15 with one open space. The goal is to get the numbers in order starting in the upper left hand corner and finishing in the bottom right hand corner. The only action would be to move a slider and at most you would have four options to choose from, thus achieving the goals of minimal actions and options to take for those actions. An admissible heuristic could also be constucted by desiring to have the numbers move to their end goals.
