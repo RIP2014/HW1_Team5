@@ -20,7 +20,6 @@ public class Planner {
 		this.map = parse.getMap();
 		this.goals = parse.getGoals();
 		this.initState = new stateNode(parse.getInit(), null, "START");
-
 	}
 	
 	public void solve(){
@@ -55,7 +54,6 @@ public class Planner {
 			}
 		}
 		System.out.println("No Solution Found");
-	
 	}
 	
 	private void PrintSolution(stateNode curr) {
@@ -77,7 +75,6 @@ public class Planner {
 		int boty = Integer.parseInt((String)bot.get(2));
 		int dX = 0;
 		int dY = 0;
-		//TODO remove redundant code : code not dry
 		//TODO implement enum for stability
 		switch (action) {
 		case "UP": dX = 0;
@@ -94,43 +91,42 @@ public class Planner {
 			break;
 		}
 		
-		
 		if(!collide(botx+dX, boty+dY)){//an empty space update here
 			for(int i = 0; i < curr.getBlockLocation().size(); i++){//check to see if collide with a block
-				if(Integer.parseInt(curr.getBlockLocation().get(i).get(1)) == botx+dX){//see if a bot x intersects with a block
-					if(Integer.parseInt(curr.getBlockLocation().get(i).get(2)) == boty+dY){//see if a bot y intersects with a block update here
-						int blockCollied = i;
-						if(!collide(botx+2*dX, boty+2*dY)){//update here
-							boolean nothBlock = true;
-							for(int j = 0; j < curr.getBlockLocation().size(); j++){//check to see if collide with a block
-								if((Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == (botx+2*dX) && Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == (boty+2*dY))){//see if there is a block at the pushed spot
-									nothBlock = false;
-								}
+				if(Integer.parseInt(curr.getBlockLocation().get(i).get(1)) == botx+dX && Integer.parseInt(curr.getBlockLocation().get(i).get(2)) == boty+dY){//see if a bot x or y intersects with a block
+					int blockCollied = i;
+					if(!collide(botx+2*dX, boty+2*dY)){//update here
+						boolean nothBlock = true;
+						for(int j = 0; j < curr.getBlockLocation().size(); j++){//check to see if collide with a block
+							if((Integer.parseInt(curr.getBlockLocation().get(j).get(1)) == (botx+2*dX) && Integer.parseInt(curr.getBlockLocation().get(j).get(2)) == (boty+2*dY))){//see if there is a block at the pushed spot
+								nothBlock = false;
 							}
-							if(nothBlock){
-								
-								ArrayList ne = new ArrayList();
-								ArrayList x = (ArrayList) curr.getBotLocation().clone();
-								x.set(1,Integer.toString(botx+dX));//update x
-								x.set(2,Integer.toString(boty+dY));//update y
-								ne.add(x);
-								for (int k = 0; k < curr.getBlockLocation().size(); k++){
-									ArrayList temp = (ArrayList) curr.getBlockLocation().get(k).clone();
-
-									if(k == blockCollied){
-										 temp.set(1,Integer.toString(botx+2*dX));//update x
-										 temp.set(2,Integer.toString(boty+2*dY));//update y
-									}
-									ne.add(temp);
-
-								}
-								return new stateNode(ne, curr, action);//update here
-							}else{
-								return null;//can't move this direction because other block blocking way
-							}
-						}else{
-							return null;//can't move because wall blocking block path
 						}
+						if(nothBlock){
+							if(!curr.goalCollide(botx+2*dX, boty+2*dY, goals)) {
+								if(collide(botx+3*dX, boty+3*dY) && (collide(botx+2*dX+(1-Math.abs(dX)), boty+2*dY+(1-Math.abs(dY))) || collide(botx+2*dX-(1-Math.abs(dX)), boty+2*dY-(1-Math.abs(dY))))){
+									return null;//pushing block into a corner.
+								}
+							}
+							ArrayList ne = new ArrayList();
+							ArrayList x = (ArrayList) curr.getBotLocation().clone();
+							x.set(1,Integer.toString(botx+dX));//update x
+							x.set(2,Integer.toString(boty+dY));//update y
+							ne.add(x);
+							for (int k = 0; k < curr.getBlockLocation().size(); k++){
+								ArrayList temp = (ArrayList) curr.getBlockLocation().get(k).clone();
+								if(k == blockCollied){
+									 temp.set(1,Integer.toString(botx+2*dX));//update x
+									 temp.set(2,Integer.toString(boty+2*dY));//update y
+								}
+								ne.add(temp);
+							}
+							return new stateNode(ne, curr, action);//update here
+						}else{
+							return null;//can't move this direction because other block blocking way
+						}
+					}else{
+						return null;//can't move because wall blocking block path
 					}
 				}
 			}
@@ -163,6 +159,7 @@ public class Planner {
 		return true;
 	}
 	
+
 	
 	private class stateNode{
 		
@@ -208,6 +205,21 @@ public class Planner {
 			if(p == (goals.size())){
 				return true;
 			}
+			return false;
+		}
+		
+		public boolean goalCollide(int x, int y, ArrayList goals) {
+			
+			for(int i = 0; i < goals.size(); i++){
+				Integer xprime = ((ArrayList<Integer>) goals.get(i)).get(0);
+				Integer yprime = ((ArrayList<Integer>) goals.get(i)).get(1);
+				//int xprime = Integer.parseInt(xprime);
+				//int yprime = Integer.parseInt(yprime);
+				if (xprime == x && yprime == y) {
+					return true;
+				}
+			}
+			
 			return false;
 		}
 		
