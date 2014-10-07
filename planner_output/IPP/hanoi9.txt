@@ -1,0 +1,1086 @@
+
+ipp: parsing domain file
+domain 'HANOI-DOMAIN' defined
+ ... done.
+ipp: parsing problem file
+problem 'HANOI-9' defined
+ ... done.
+
+
+warning: detected identical trees in con/dis junction
+warning: detected identical trees in con/dis junction
+instantiated 438 actions
+
+
+time:   0,    74 facts and       0 exclusive pairs (   11,       0 positives)
+              76 ops   and       9 exclusive pairs
+time:   1,    80 facts and      18 exclusive pairs (   14,       6 positives)
+              88 ops   and     128 exclusive pairs
+time:   2,    84 facts and      32 exclusive pairs (   17,      17 positives)
+             100 ops   and     354 exclusive pairs
+time:   3,    89 facts and      48 exclusive pairs (   21,      35 positives)
+             120 ops   and     955 exclusive pairs
+time:   4,    95 facts and      79 exclusive pairs (   26,      63 positives)
+             150 ops   and    2373 exclusive pairs
+time:   5,   102 facts and     122 exclusive pairs (   32,     103 positives)
+             192 ops   and    5283 exclusive pairs
+time:   6,   110 facts and     179 exclusive pairs (   39,     157 positives)
+             248 ops   and   10681 exclusive pairs
+time:   7,   119 facts and     252 exclusive pairs (   47,     227 positives)
+             320 ops   and   19938 exclusive pairs
+time:   8,   129 facts and     343 exclusive pairs (   56,     315 positives)
+             410 ops   and   34860 exclusive pairs
+time:   9,   140 facts and     454 exclusive pairs (   66,     423 positives)
+             518 ops   and   57349 exclusive pairs
+time:  10,   148 facts and     520 exclusive pairs (   74,     502 positives)
+
+goals first reachable in 10 time steps
+
+             586 ops   and   72761 exclusive pairs
+time:  11,   148 facts and     485 exclusive pairs (   74,     474 positives)
+
+graph has leveled off at time step 12
+
+             586 ops   and   72530 exclusive pairs
+time:  12,   148 facts and     485 exclusive pairs (   74,     474 positives)
+
+graph has leveled off! wave front mechanism is taking over
+
+expanding wave front to level   13
+expanding wave front to level   14
+expanding wave front to level   15
+expanding wave front to level   16
+expanding wave front to level   17
+expanding wave front to level   18
+expanding wave front to level   19
+expanding wave front to level   20
+expanding wave front to level   21
+expanding wave front to level   22
+expanding wave front to level   23
+expanding wave front to level   24
+expanding wave front to level   25
+expanding wave front to level   26
+expanding wave front to level   27
+expanding wave front to level   28
+expanding wave front to level   29
+expanding wave front to level   30
+expanding wave front to level   31
+expanding wave front to level   32
+expanding wave front to level   33
+expanding wave front to level   34
+expanding wave front to level   35
+expanding wave front to level   36
+expanding wave front to level   37
+expanding wave front to level   38
+expanding wave front to level   39
+expanding wave front to level   40
+expanding wave front to level   41
+expanding wave front to level   42
+expanding wave front to level   43
+expanding wave front to level   44
+expanding wave front to level   45
+expanding wave front to level   46
+expanding wave front to level   47
+expanding wave front to level   48
+expanding wave front to level   49
+expanding wave front to level   50
+expanding wave front to level   51
+expanding wave front to level   52
+expanding wave front to level   53
+expanding wave front to level   54
+expanding wave front to level   55
+expanding wave front to level   56
+expanding wave front to level   57
+expanding wave front to level   58
+expanding wave front to level   59
+expanding wave front to level   60
+expanding wave front to level   61
+expanding wave front to level   62
+expanding wave front to level   63
+expanding wave front to level   64
+expanding wave front to level   65
+expanding wave front to level   66
+expanding wave front to level   67
+expanding wave front to level   68
+expanding wave front to level   69
+expanding wave front to level   70
+expanding wave front to level   71
+expanding wave front to level   72
+expanding wave front to level   73
+expanding wave front to level   74
+expanding wave front to level   75
+expanding wave front to level   76
+expanding wave front to level   77
+expanding wave front to level   78
+expanding wave front to level   79
+expanding wave front to level   80
+expanding wave front to level   81
+expanding wave front to level   82
+expanding wave front to level   83
+expanding wave front to level   84
+expanding wave front to level   85
+expanding wave front to level   86
+expanding wave front to level   87
+expanding wave front to level   88
+expanding wave front to level   89
+expanding wave front to level   90
+expanding wave front to level   91
+expanding wave front to level   92
+expanding wave front to level   93
+expanding wave front to level   94
+expanding wave front to level   95
+expanding wave front to level   96
+expanding wave front to level   97
+expanding wave front to level   98
+expanding wave front to level   99
+expanding wave front to level  100
+expanding wave front to level  101
+expanding wave front to level  102
+expanding wave front to level  103
+expanding wave front to level  104
+expanding wave front to level  105
+expanding wave front to level  106
+expanding wave front to level  107
+expanding wave front to level  108
+expanding wave front to level  109
+expanding wave front to level  110
+expanding wave front to level  111
+expanding wave front to level  112
+expanding wave front to level  113
+expanding wave front to level  114
+expanding wave front to level  115
+expanding wave front to level  116
+expanding wave front to level  117
+expanding wave front to level  118
+expanding wave front to level  119
+expanding wave front to level  120
+expanding wave front to level  121
+expanding wave front to level  122
+expanding wave front to level  123
+expanding wave front to level  124
+expanding wave front to level  125
+expanding wave front to level  126
+expanding wave front to level  127
+expanding wave front to level  128
+expanding wave front to level  129
+expanding wave front to level  130
+expanding wave front to level  131
+expanding wave front to level  132
+expanding wave front to level  133
+expanding wave front to level  134
+expanding wave front to level  135
+expanding wave front to level  136
+expanding wave front to level  137
+expanding wave front to level  138
+expanding wave front to level  139
+expanding wave front to level  140
+expanding wave front to level  141
+expanding wave front to level  142
+expanding wave front to level  143
+expanding wave front to level  144
+expanding wave front to level  145
+expanding wave front to level  146
+expanding wave front to level  147
+expanding wave front to level  148
+expanding wave front to level  149
+expanding wave front to level  150
+expanding wave front to level  151
+expanding wave front to level  152
+expanding wave front to level  153
+expanding wave front to level  154
+expanding wave front to level  155
+expanding wave front to level  156
+expanding wave front to level  157
+expanding wave front to level  158
+expanding wave front to level  159
+expanding wave front to level  160
+expanding wave front to level  161
+expanding wave front to level  162
+expanding wave front to level  163
+expanding wave front to level  164
+expanding wave front to level  165
+expanding wave front to level  166
+expanding wave front to level  167
+expanding wave front to level  168
+expanding wave front to level  169
+expanding wave front to level  170
+expanding wave front to level  171
+expanding wave front to level  172
+expanding wave front to level  173
+expanding wave front to level  174
+expanding wave front to level  175
+expanding wave front to level  176
+expanding wave front to level  177
+expanding wave front to level  178
+expanding wave front to level  179
+expanding wave front to level  180
+expanding wave front to level  181
+expanding wave front to level  182
+expanding wave front to level  183
+expanding wave front to level  184
+expanding wave front to level  185
+expanding wave front to level  186
+expanding wave front to level  187
+expanding wave front to level  188
+expanding wave front to level  189
+expanding wave front to level  190
+expanding wave front to level  191
+expanding wave front to level  192
+expanding wave front to level  193
+expanding wave front to level  194
+expanding wave front to level  195
+expanding wave front to level  196
+expanding wave front to level  197
+expanding wave front to level  198
+expanding wave front to level  199
+expanding wave front to level  200
+expanding wave front to level  201
+expanding wave front to level  202
+expanding wave front to level  203
+expanding wave front to level  204
+expanding wave front to level  205
+expanding wave front to level  206
+expanding wave front to level  207
+expanding wave front to level  208
+expanding wave front to level  209
+expanding wave front to level  210
+expanding wave front to level  211
+expanding wave front to level  212
+expanding wave front to level  213
+expanding wave front to level  214
+expanding wave front to level  215
+expanding wave front to level  216
+expanding wave front to level  217
+expanding wave front to level  218
+expanding wave front to level  219
+expanding wave front to level  220
+expanding wave front to level  221
+expanding wave front to level  222
+expanding wave front to level  223
+expanding wave front to level  224
+expanding wave front to level  225
+expanding wave front to level  226
+expanding wave front to level  227
+expanding wave front to level  228
+expanding wave front to level  229
+expanding wave front to level  230
+expanding wave front to level  231
+expanding wave front to level  232
+expanding wave front to level  233
+expanding wave front to level  234
+expanding wave front to level  235
+expanding wave front to level  236
+expanding wave front to level  237
+expanding wave front to level  238
+expanding wave front to level  239
+expanding wave front to level  240
+expanding wave front to level  241
+expanding wave front to level  242
+expanding wave front to level  243
+expanding wave front to level  244
+expanding wave front to level  245
+expanding wave front to level  246
+expanding wave front to level  247
+expanding wave front to level  248
+expanding wave front to level  249
+expanding wave front to level  250
+expanding wave front to level  251
+expanding wave front to level  252
+expanding wave front to level  253
+expanding wave front to level  254
+expanding wave front to level  255
+expanding wave front to level  256
+expanding wave front to level  257
+expanding wave front to level  258
+expanding wave front to level  259
+expanding wave front to level  260
+expanding wave front to level  261
+expanding wave front to level  262
+expanding wave front to level  263
+expanding wave front to level  264
+expanding wave front to level  265
+expanding wave front to level  266
+expanding wave front to level  267
+expanding wave front to level  268
+expanding wave front to level  269
+expanding wave front to level  270
+expanding wave front to level  271
+expanding wave front to level  272
+expanding wave front to level  273
+expanding wave front to level  274
+expanding wave front to level  275
+expanding wave front to level  276
+expanding wave front to level  277
+expanding wave front to level  278
+expanding wave front to level  279
+expanding wave front to level  280
+expanding wave front to level  281
+expanding wave front to level  282
+expanding wave front to level  283
+expanding wave front to level  284
+expanding wave front to level  285
+expanding wave front to level  286
+expanding wave front to level  287
+expanding wave front to level  288
+expanding wave front to level  289
+expanding wave front to level  290
+expanding wave front to level  291
+expanding wave front to level  292
+expanding wave front to level  293
+expanding wave front to level  294
+expanding wave front to level  295
+expanding wave front to level  296
+expanding wave front to level  297
+expanding wave front to level  298
+expanding wave front to level  299
+expanding wave front to level  300
+expanding wave front to level  301
+expanding wave front to level  302
+expanding wave front to level  303
+expanding wave front to level  304
+expanding wave front to level  305
+expanding wave front to level  306
+expanding wave front to level  307
+expanding wave front to level  308
+expanding wave front to level  309
+expanding wave front to level  310
+expanding wave front to level  311
+expanding wave front to level  312
+expanding wave front to level  313
+expanding wave front to level  314
+expanding wave front to level  315
+expanding wave front to level  316
+expanding wave front to level  317
+expanding wave front to level  318
+expanding wave front to level  319
+expanding wave front to level  320
+expanding wave front to level  321
+expanding wave front to level  322
+expanding wave front to level  323
+expanding wave front to level  324
+expanding wave front to level  325
+expanding wave front to level  326
+expanding wave front to level  327
+expanding wave front to level  328
+expanding wave front to level  329
+expanding wave front to level  330
+expanding wave front to level  331
+expanding wave front to level  332
+expanding wave front to level  333
+expanding wave front to level  334
+expanding wave front to level  335
+expanding wave front to level  336
+expanding wave front to level  337
+expanding wave front to level  338
+expanding wave front to level  339
+expanding wave front to level  340
+expanding wave front to level  341
+expanding wave front to level  342
+expanding wave front to level  343
+expanding wave front to level  344
+expanding wave front to level  345
+expanding wave front to level  346
+expanding wave front to level  347
+expanding wave front to level  348
+expanding wave front to level  349
+expanding wave front to level  350
+expanding wave front to level  351
+expanding wave front to level  352
+expanding wave front to level  353
+expanding wave front to level  354
+expanding wave front to level  355
+expanding wave front to level  356
+expanding wave front to level  357
+expanding wave front to level  358
+expanding wave front to level  359
+expanding wave front to level  360
+expanding wave front to level  361
+expanding wave front to level  362
+expanding wave front to level  363
+expanding wave front to level  364
+expanding wave front to level  365
+expanding wave front to level  366
+expanding wave front to level  367
+expanding wave front to level  368
+expanding wave front to level  369
+expanding wave front to level  370
+expanding wave front to level  371
+expanding wave front to level  372
+expanding wave front to level  373
+expanding wave front to level  374
+expanding wave front to level  375
+expanding wave front to level  376
+expanding wave front to level  377
+expanding wave front to level  378
+expanding wave front to level  379
+expanding wave front to level  380
+expanding wave front to level  381
+expanding wave front to level  382
+expanding wave front to level  383
+expanding wave front to level  384
+expanding wave front to level  385
+expanding wave front to level  386
+expanding wave front to level  387
+expanding wave front to level  388
+expanding wave front to level  389
+expanding wave front to level  390
+expanding wave front to level  391
+expanding wave front to level  392
+expanding wave front to level  393
+expanding wave front to level  394
+expanding wave front to level  395
+expanding wave front to level  396
+expanding wave front to level  397
+expanding wave front to level  398
+expanding wave front to level  399
+expanding wave front to level  400
+expanding wave front to level  401
+expanding wave front to level  402
+expanding wave front to level  403
+expanding wave front to level  404
+expanding wave front to level  405
+expanding wave front to level  406
+expanding wave front to level  407
+expanding wave front to level  408
+expanding wave front to level  409
+expanding wave front to level  410
+expanding wave front to level  411
+expanding wave front to level  412
+expanding wave front to level  413
+expanding wave front to level  414
+expanding wave front to level  415
+expanding wave front to level  416
+expanding wave front to level  417
+expanding wave front to level  418
+expanding wave front to level  419
+expanding wave front to level  420
+expanding wave front to level  421
+expanding wave front to level  422
+expanding wave front to level  423
+expanding wave front to level  424
+expanding wave front to level  425
+expanding wave front to level  426
+expanding wave front to level  427
+expanding wave front to level  428
+expanding wave front to level  429
+expanding wave front to level  430
+expanding wave front to level  431
+expanding wave front to level  432
+expanding wave front to level  433
+expanding wave front to level  434
+expanding wave front to level  435
+expanding wave front to level  436
+expanding wave front to level  437
+expanding wave front to level  438
+expanding wave front to level  439
+expanding wave front to level  440
+expanding wave front to level  441
+expanding wave front to level  442
+expanding wave front to level  443
+expanding wave front to level  444
+expanding wave front to level  445
+expanding wave front to level  446
+expanding wave front to level  447
+expanding wave front to level  448
+expanding wave front to level  449
+expanding wave front to level  450
+expanding wave front to level  451
+expanding wave front to level  452
+expanding wave front to level  453
+expanding wave front to level  454
+expanding wave front to level  455
+expanding wave front to level  456
+expanding wave front to level  457
+expanding wave front to level  458
+expanding wave front to level  459
+expanding wave front to level  460
+expanding wave front to level  461
+expanding wave front to level  462
+expanding wave front to level  463
+expanding wave front to level  464
+expanding wave front to level  465
+expanding wave front to level  466
+expanding wave front to level  467
+expanding wave front to level  468
+expanding wave front to level  469
+expanding wave front to level  470
+expanding wave front to level  471
+expanding wave front to level  472
+expanding wave front to level  473
+expanding wave front to level  474
+expanding wave front to level  475
+expanding wave front to level  476
+expanding wave front to level  477
+expanding wave front to level  478
+expanding wave front to level  479
+expanding wave front to level  480
+expanding wave front to level  481
+expanding wave front to level  482
+expanding wave front to level  483
+expanding wave front to level  484
+expanding wave front to level  485
+expanding wave front to level  486
+expanding wave front to level  487
+expanding wave front to level  488
+expanding wave front to level  489
+expanding wave front to level  490
+expanding wave front to level  491
+expanding wave front to level  492
+expanding wave front to level  493
+expanding wave front to level  494
+expanding wave front to level  495
+expanding wave front to level  496
+expanding wave front to level  497
+expanding wave front to level  498
+expanding wave front to level  499
+expanding wave front to level  500
+expanding wave front to level  501
+expanding wave front to level  502
+expanding wave front to level  503
+expanding wave front to level  504
+expanding wave front to level  505
+expanding wave front to level  506
+expanding wave front to level  507
+expanding wave front to level  508
+expanding wave front to level  509
+expanding wave front to level  510
+expanding wave front to level  511
+
+
+found plan as follows:
+
+time step    0: MOVE-DISK D1 D2 P1
+time step    1: MOVE-DISK D2 D3 P2
+time step    2: MOVE-DISK D1 P1 D2
+time step    3: MOVE-DISK D3 D4 P1
+time step    4: MOVE-DISK D1 D2 D4
+time step    5: MOVE-DISK D2 P2 D3
+time step    6: MOVE-DISK D1 D4 D2
+time step    7: MOVE-DISK D4 D5 P2
+time step    8: MOVE-DISK D1 D2 D4
+time step    9: MOVE-DISK D2 D3 D5
+time step   10: MOVE-DISK D1 D4 D2
+time step   11: MOVE-DISK D3 P1 D4
+time step   12: MOVE-DISK D1 D2 P1
+time step   13: MOVE-DISK D2 D5 D3
+time step   14: MOVE-DISK D1 P1 D2
+time step   15: MOVE-DISK D5 D6 P1
+time step   16: MOVE-DISK D1 D2 D6
+time step   17: MOVE-DISK D2 D3 D5
+time step   18: MOVE-DISK D1 D6 D2
+time step   19: MOVE-DISK D3 D4 D6
+time step   20: MOVE-DISK D1 D2 D4
+time step   21: MOVE-DISK D2 D5 D3
+time step   22: MOVE-DISK D1 D4 D2
+time step   23: MOVE-DISK D4 P2 D5
+time step   24: MOVE-DISK D1 D2 D4
+time step   25: MOVE-DISK D2 D3 P2
+time step   26: MOVE-DISK D1 D4 D2
+time step   27: MOVE-DISK D3 D6 D4
+time step   28: MOVE-DISK D1 D2 D6
+time step   29: MOVE-DISK D2 P2 D3
+time step   30: MOVE-DISK D1 D6 D2
+time step   31: MOVE-DISK D6 D7 P2
+time step   32: MOVE-DISK D1 D2 D6
+time step   33: MOVE-DISK D2 D3 D7
+time step   34: MOVE-DISK D1 D6 D2
+time step   35: MOVE-DISK D3 D4 D6
+time step   36: MOVE-DISK D1 D2 D4
+time step   37: MOVE-DISK D2 D7 D3
+time step   38: MOVE-DISK D1 D4 D2
+time step   39: MOVE-DISK D4 D5 D7
+time step   40: MOVE-DISK D1 D2 D4
+time step   41: MOVE-DISK D2 D3 D5
+time step   42: MOVE-DISK D1 D4 D2
+time step   43: MOVE-DISK D3 D6 D4
+time step   44: MOVE-DISK D1 D2 D6
+time step   45: MOVE-DISK D2 D5 D3
+time step   46: MOVE-DISK D1 D6 D2
+time step   47: MOVE-DISK D5 P1 D6
+time step   48: MOVE-DISK D1 D2 P1
+time step   49: MOVE-DISK D2 D3 D5
+time step   50: MOVE-DISK D1 P1 D2
+time step   51: MOVE-DISK D3 D4 P1
+time step   52: MOVE-DISK D1 D2 D4
+time step   53: MOVE-DISK D2 D5 D3
+time step   54: MOVE-DISK D1 D4 D2
+time step   55: MOVE-DISK D4 D7 D5
+time step   56: MOVE-DISK D1 D2 D4
+time step   57: MOVE-DISK D2 D3 D7
+time step   58: MOVE-DISK D1 D4 D2
+time step   59: MOVE-DISK D3 P1 D4
+time step   60: MOVE-DISK D1 D2 P1
+time step   61: MOVE-DISK D2 D7 D3
+time step   62: MOVE-DISK D1 P1 D2
+time step   63: MOVE-DISK D7 D8 P1
+time step   64: MOVE-DISK D1 D2 D8
+time step   65: MOVE-DISK D2 D3 D7
+time step   66: MOVE-DISK D1 D8 D2
+time step   67: MOVE-DISK D3 D4 D8
+time step   68: MOVE-DISK D1 D2 D4
+time step   69: MOVE-DISK D2 D7 D3
+time step   70: MOVE-DISK D1 D4 D2
+time step   71: MOVE-DISK D4 D5 D7
+time step   72: MOVE-DISK D1 D2 D4
+time step   73: MOVE-DISK D2 D3 D5
+time step   74: MOVE-DISK D1 D4 D2
+time step   75: MOVE-DISK D3 D8 D4
+time step   76: MOVE-DISK D1 D2 D8
+time step   77: MOVE-DISK D2 D5 D3
+time step   78: MOVE-DISK D1 D8 D2
+time step   79: MOVE-DISK D5 D6 D8
+time step   80: MOVE-DISK D1 D2 D6
+time step   81: MOVE-DISK D2 D3 D5
+time step   82: MOVE-DISK D1 D6 D2
+time step   83: MOVE-DISK D3 D4 D6
+time step   84: MOVE-DISK D1 D2 D4
+time step   85: MOVE-DISK D2 D5 D3
+time step   86: MOVE-DISK D1 D4 D2
+time step   87: MOVE-DISK D4 D7 D5
+time step   88: MOVE-DISK D1 D2 D4
+time step   89: MOVE-DISK D2 D3 D7
+time step   90: MOVE-DISK D1 D4 D2
+time step   91: MOVE-DISK D3 D6 D4
+time step   92: MOVE-DISK D1 D2 D6
+time step   93: MOVE-DISK D2 D7 D3
+time step   94: MOVE-DISK D1 D6 D2
+time step   95: MOVE-DISK D6 P2 D7
+time step   96: MOVE-DISK D1 D2 D6
+time step   97: MOVE-DISK D2 D3 P2
+time step   98: MOVE-DISK D1 D6 D2
+time step   99: MOVE-DISK D3 D4 D6
+time step  100: MOVE-DISK D1 D2 D4
+time step  101: MOVE-DISK D2 P2 D3
+time step  102: MOVE-DISK D1 D4 D2
+time step  103: MOVE-DISK D4 D5 P2
+time step  104: MOVE-DISK D1 D2 D4
+time step  105: MOVE-DISK D2 D3 D5
+time step  106: MOVE-DISK D1 D4 D2
+time step  107: MOVE-DISK D3 D6 D4
+time step  108: MOVE-DISK D1 D2 D6
+time step  109: MOVE-DISK D2 D5 D3
+time step  110: MOVE-DISK D1 D6 D2
+time step  111: MOVE-DISK D5 D8 D6
+time step  112: MOVE-DISK D1 D2 D8
+time step  113: MOVE-DISK D2 D3 D5
+time step  114: MOVE-DISK D1 D8 D2
+time step  115: MOVE-DISK D3 D4 D8
+time step  116: MOVE-DISK D1 D2 D4
+time step  117: MOVE-DISK D2 D5 D3
+time step  118: MOVE-DISK D1 D4 D2
+time step  119: MOVE-DISK D4 P2 D5
+time step  120: MOVE-DISK D1 D2 D4
+time step  121: MOVE-DISK D2 D3 P2
+time step  122: MOVE-DISK D1 D4 D2
+time step  123: MOVE-DISK D3 D8 D4
+time step  124: MOVE-DISK D1 D2 D8
+time step  125: MOVE-DISK D2 P2 D3
+time step  126: MOVE-DISK D1 D8 D2
+time step  127: MOVE-DISK D8 D9 P2
+time step  128: MOVE-DISK D1 D2 D8
+time step  129: MOVE-DISK D2 D3 D9
+time step  130: MOVE-DISK D1 D8 D2
+time step  131: MOVE-DISK D3 D4 D8
+time step  132: MOVE-DISK D1 D2 D4
+time step  133: MOVE-DISK D2 D9 D3
+time step  134: MOVE-DISK D1 D4 D2
+time step  135: MOVE-DISK D4 D5 D9
+time step  136: MOVE-DISK D1 D2 D4
+time step  137: MOVE-DISK D2 D3 D5
+time step  138: MOVE-DISK D1 D4 D2
+time step  139: MOVE-DISK D3 D8 D4
+time step  140: MOVE-DISK D1 D2 D8
+time step  141: MOVE-DISK D2 D5 D3
+time step  142: MOVE-DISK D1 D8 D2
+time step  143: MOVE-DISK D5 D6 D8
+time step  144: MOVE-DISK D1 D2 D6
+time step  145: MOVE-DISK D2 D3 D5
+time step  146: MOVE-DISK D1 D6 D2
+time step  147: MOVE-DISK D3 D4 D6
+time step  148: MOVE-DISK D1 D2 D4
+time step  149: MOVE-DISK D2 D5 D3
+time step  150: MOVE-DISK D1 D4 D2
+time step  151: MOVE-DISK D4 D9 D5
+time step  152: MOVE-DISK D1 D2 D4
+time step  153: MOVE-DISK D2 D3 D9
+time step  154: MOVE-DISK D1 D4 D2
+time step  155: MOVE-DISK D3 D6 D4
+time step  156: MOVE-DISK D1 D2 D6
+time step  157: MOVE-DISK D2 D9 D3
+time step  158: MOVE-DISK D1 D6 D2
+time step  159: MOVE-DISK D6 D7 D9
+time step  160: MOVE-DISK D1 D2 D6
+time step  161: MOVE-DISK D2 D3 D7
+time step  162: MOVE-DISK D1 D6 D2
+time step  163: MOVE-DISK D3 D4 D6
+time step  164: MOVE-DISK D1 D2 D4
+time step  165: MOVE-DISK D2 D7 D3
+time step  166: MOVE-DISK D1 D4 D2
+time step  167: MOVE-DISK D4 D5 D7
+time step  168: MOVE-DISK D1 D2 D4
+time step  169: MOVE-DISK D2 D3 D5
+time step  170: MOVE-DISK D1 D4 D2
+time step  171: MOVE-DISK D3 D6 D4
+time step  172: MOVE-DISK D1 D2 D6
+time step  173: MOVE-DISK D2 D5 D3
+time step  174: MOVE-DISK D1 D6 D2
+time step  175: MOVE-DISK D5 D8 D6
+time step  176: MOVE-DISK D1 D2 D8
+time step  177: MOVE-DISK D2 D3 D5
+time step  178: MOVE-DISK D1 D8 D2
+time step  179: MOVE-DISK D3 D4 D8
+time step  180: MOVE-DISK D1 D2 D4
+time step  181: MOVE-DISK D2 D5 D3
+time step  182: MOVE-DISK D1 D4 D2
+time step  183: MOVE-DISK D4 D7 D5
+time step  184: MOVE-DISK D1 D2 D4
+time step  185: MOVE-DISK D2 D3 D7
+time step  186: MOVE-DISK D1 D4 D2
+time step  187: MOVE-DISK D3 D8 D4
+time step  188: MOVE-DISK D1 D2 D8
+time step  189: MOVE-DISK D2 D7 D3
+time step  190: MOVE-DISK D1 D8 D2
+time step  191: MOVE-DISK D7 P1 D8
+time step  192: MOVE-DISK D1 D2 P1
+time step  193: MOVE-DISK D2 D3 D7
+time step  194: MOVE-DISK D1 P1 D2
+time step  195: MOVE-DISK D3 D4 P1
+time step  196: MOVE-DISK D1 D2 D4
+time step  197: MOVE-DISK D2 D7 D3
+time step  198: MOVE-DISK D1 D4 D2
+time step  199: MOVE-DISK D4 D5 D7
+time step  200: MOVE-DISK D1 D2 D4
+time step  201: MOVE-DISK D2 D3 D5
+time step  202: MOVE-DISK D1 D4 D2
+time step  203: MOVE-DISK D3 P1 D4
+time step  204: MOVE-DISK D1 D2 P1
+time step  205: MOVE-DISK D2 D5 D3
+time step  206: MOVE-DISK D1 P1 D2
+time step  207: MOVE-DISK D5 D6 P1
+time step  208: MOVE-DISK D1 D2 D6
+time step  209: MOVE-DISK D2 D3 D5
+time step  210: MOVE-DISK D1 D6 D2
+time step  211: MOVE-DISK D3 D4 D6
+time step  212: MOVE-DISK D1 D2 D4
+time step  213: MOVE-DISK D2 D5 D3
+time step  214: MOVE-DISK D1 D4 D2
+time step  215: MOVE-DISK D4 D7 D5
+time step  216: MOVE-DISK D1 D2 D4
+time step  217: MOVE-DISK D2 D3 D7
+time step  218: MOVE-DISK D1 D4 D2
+time step  219: MOVE-DISK D3 D6 D4
+time step  220: MOVE-DISK D1 D2 D6
+time step  221: MOVE-DISK D2 D7 D3
+time step  222: MOVE-DISK D1 D6 D2
+time step  223: MOVE-DISK D6 D9 D7
+time step  224: MOVE-DISK D1 D2 D6
+time step  225: MOVE-DISK D2 D3 D9
+time step  226: MOVE-DISK D1 D6 D2
+time step  227: MOVE-DISK D3 D4 D6
+time step  228: MOVE-DISK D1 D2 D4
+time step  229: MOVE-DISK D2 D9 D3
+time step  230: MOVE-DISK D1 D4 D2
+time step  231: MOVE-DISK D4 D5 D9
+time step  232: MOVE-DISK D1 D2 D4
+time step  233: MOVE-DISK D2 D3 D5
+time step  234: MOVE-DISK D1 D4 D2
+time step  235: MOVE-DISK D3 D6 D4
+time step  236: MOVE-DISK D1 D2 D6
+time step  237: MOVE-DISK D2 D5 D3
+time step  238: MOVE-DISK D1 D6 D2
+time step  239: MOVE-DISK D5 P1 D6
+time step  240: MOVE-DISK D1 D2 P1
+time step  241: MOVE-DISK D2 D3 D5
+time step  242: MOVE-DISK D1 P1 D2
+time step  243: MOVE-DISK D3 D4 P1
+time step  244: MOVE-DISK D1 D2 D4
+time step  245: MOVE-DISK D2 D5 D3
+time step  246: MOVE-DISK D1 D4 D2
+time step  247: MOVE-DISK D4 D9 D5
+time step  248: MOVE-DISK D1 D2 D4
+time step  249: MOVE-DISK D2 D3 D9
+time step  250: MOVE-DISK D1 D4 D2
+time step  251: MOVE-DISK D3 P1 D4
+time step  252: MOVE-DISK D1 D2 P1
+time step  253: MOVE-DISK D2 D9 D3
+time step  254: MOVE-DISK D1 P1 D2
+time step  255: MOVE-DISK D9 P3 P1
+time step  256: MOVE-DISK D1 D2 P3
+time step  257: MOVE-DISK D2 D3 D9
+time step  258: MOVE-DISK D1 P3 D2
+time step  259: MOVE-DISK D3 D4 P3
+time step  260: MOVE-DISK D1 D2 D4
+time step  261: MOVE-DISK D2 D9 D3
+time step  262: MOVE-DISK D1 D4 D2
+time step  263: MOVE-DISK D4 D5 D9
+time step  264: MOVE-DISK D1 D2 D4
+time step  265: MOVE-DISK D2 D3 D5
+time step  266: MOVE-DISK D1 D4 D2
+time step  267: MOVE-DISK D3 P3 D4
+time step  268: MOVE-DISK D1 D2 P3
+time step  269: MOVE-DISK D2 D5 D3
+time step  270: MOVE-DISK D1 P3 D2
+time step  271: MOVE-DISK D5 D6 P3
+time step  272: MOVE-DISK D1 D2 D6
+time step  273: MOVE-DISK D2 D3 D5
+time step  274: MOVE-DISK D1 D6 D2
+time step  275: MOVE-DISK D3 D4 D6
+time step  276: MOVE-DISK D1 D2 D4
+time step  277: MOVE-DISK D2 D5 D3
+time step  278: MOVE-DISK D1 D4 D2
+time step  279: MOVE-DISK D4 D9 D5
+time step  280: MOVE-DISK D1 D2 D4
+time step  281: MOVE-DISK D2 D3 D9
+time step  282: MOVE-DISK D1 D4 D2
+time step  283: MOVE-DISK D3 D6 D4
+time step  284: MOVE-DISK D1 D2 D6
+time step  285: MOVE-DISK D2 D9 D3
+time step  286: MOVE-DISK D1 D6 D2
+time step  287: MOVE-DISK D6 D7 D9
+time step  288: MOVE-DISK D1 D2 D6
+time step  289: MOVE-DISK D2 D3 D7
+time step  290: MOVE-DISK D1 D6 D2
+time step  291: MOVE-DISK D3 D4 D6
+time step  292: MOVE-DISK D1 D2 D4
+time step  293: MOVE-DISK D2 D7 D3
+time step  294: MOVE-DISK D1 D4 D2
+time step  295: MOVE-DISK D4 D5 D7
+time step  296: MOVE-DISK D1 D2 D4
+time step  297: MOVE-DISK D2 D3 D5
+time step  298: MOVE-DISK D1 D4 D2
+time step  299: MOVE-DISK D3 D6 D4
+time step  300: MOVE-DISK D1 D2 D6
+time step  301: MOVE-DISK D2 D5 D3
+time step  302: MOVE-DISK D1 D6 D2
+time step  303: MOVE-DISK D5 P3 D6
+time step  304: MOVE-DISK D1 D2 P3
+time step  305: MOVE-DISK D2 D3 D5
+time step  306: MOVE-DISK D1 P3 D2
+time step  307: MOVE-DISK D3 D4 P3
+time step  308: MOVE-DISK D1 D2 D4
+time step  309: MOVE-DISK D2 D5 D3
+time step  310: MOVE-DISK D1 D4 D2
+time step  311: MOVE-DISK D4 D7 D5
+time step  312: MOVE-DISK D1 D2 D4
+time step  313: MOVE-DISK D2 D3 D7
+time step  314: MOVE-DISK D1 D4 D2
+time step  315: MOVE-DISK D3 P3 D4
+time step  316: MOVE-DISK D1 D2 P3
+time step  317: MOVE-DISK D2 D7 D3
+time step  318: MOVE-DISK D1 P3 D2
+time step  319: MOVE-DISK D7 D8 P3
+time step  320: MOVE-DISK D1 D2 D8
+time step  321: MOVE-DISK D2 D3 D7
+time step  322: MOVE-DISK D1 D8 D2
+time step  323: MOVE-DISK D3 D4 D8
+time step  324: MOVE-DISK D1 D2 D4
+time step  325: MOVE-DISK D2 D7 D3
+time step  326: MOVE-DISK D1 D4 D2
+time step  327: MOVE-DISK D4 D5 D7
+time step  328: MOVE-DISK D1 D2 D4
+time step  329: MOVE-DISK D2 D3 D5
+time step  330: MOVE-DISK D1 D4 D2
+time step  331: MOVE-DISK D3 D8 D4
+time step  332: MOVE-DISK D1 D2 D8
+time step  333: MOVE-DISK D2 D5 D3
+time step  334: MOVE-DISK D1 D8 D2
+time step  335: MOVE-DISK D5 D6 D8
+time step  336: MOVE-DISK D1 D2 D6
+time step  337: MOVE-DISK D2 D3 D5
+time step  338: MOVE-DISK D1 D6 D2
+time step  339: MOVE-DISK D3 D4 D6
+time step  340: MOVE-DISK D1 D2 D4
+time step  341: MOVE-DISK D2 D5 D3
+time step  342: MOVE-DISK D1 D4 D2
+time step  343: MOVE-DISK D4 D7 D5
+time step  344: MOVE-DISK D1 D2 D4
+time step  345: MOVE-DISK D2 D3 D7
+time step  346: MOVE-DISK D1 D4 D2
+time step  347: MOVE-DISK D3 D6 D4
+time step  348: MOVE-DISK D1 D2 D6
+time step  349: MOVE-DISK D2 D7 D3
+time step  350: MOVE-DISK D1 D6 D2
+time step  351: MOVE-DISK D6 D9 D7
+time step  352: MOVE-DISK D1 D2 D6
+time step  353: MOVE-DISK D2 D3 D9
+time step  354: MOVE-DISK D1 D6 D2
+time step  355: MOVE-DISK D3 D4 D6
+time step  356: MOVE-DISK D1 D2 D4
+time step  357: MOVE-DISK D2 D9 D3
+time step  358: MOVE-DISK D1 D4 D2
+time step  359: MOVE-DISK D4 D5 D9
+time step  360: MOVE-DISK D1 D2 D4
+time step  361: MOVE-DISK D2 D3 D5
+time step  362: MOVE-DISK D1 D4 D2
+time step  363: MOVE-DISK D3 D6 D4
+time step  364: MOVE-DISK D1 D2 D6
+time step  365: MOVE-DISK D2 D5 D3
+time step  366: MOVE-DISK D1 D6 D2
+time step  367: MOVE-DISK D5 D8 D6
+time step  368: MOVE-DISK D1 D2 D8
+time step  369: MOVE-DISK D2 D3 D5
+time step  370: MOVE-DISK D1 D8 D2
+time step  371: MOVE-DISK D3 D4 D8
+time step  372: MOVE-DISK D1 D2 D4
+time step  373: MOVE-DISK D2 D5 D3
+time step  374: MOVE-DISK D1 D4 D2
+time step  375: MOVE-DISK D4 D9 D5
+time step  376: MOVE-DISK D1 D2 D4
+time step  377: MOVE-DISK D2 D3 D9
+time step  378: MOVE-DISK D1 D4 D2
+time step  379: MOVE-DISK D3 D8 D4
+time step  380: MOVE-DISK D1 D2 D8
+time step  381: MOVE-DISK D2 D9 D3
+time step  382: MOVE-DISK D1 D8 D2
+time step  383: MOVE-DISK D8 P2 D9
+time step  384: MOVE-DISK D1 D2 D8
+time step  385: MOVE-DISK D2 D3 P2
+time step  386: MOVE-DISK D1 D8 D2
+time step  387: MOVE-DISK D3 D4 D8
+time step  388: MOVE-DISK D1 D2 D4
+time step  389: MOVE-DISK D2 P2 D3
+time step  390: MOVE-DISK D1 D4 D2
+time step  391: MOVE-DISK D4 D5 P2
+time step  392: MOVE-DISK D1 D2 D4
+time step  393: MOVE-DISK D2 D3 D5
+time step  394: MOVE-DISK D1 D4 D2
+time step  395: MOVE-DISK D3 D8 D4
+time step  396: MOVE-DISK D1 D2 D8
+time step  397: MOVE-DISK D2 D5 D3
+time step  398: MOVE-DISK D1 D8 D2
+time step  399: MOVE-DISK D5 D6 D8
+time step  400: MOVE-DISK D1 D2 D6
+time step  401: MOVE-DISK D2 D3 D5
+time step  402: MOVE-DISK D1 D6 D2
+time step  403: MOVE-DISK D3 D4 D6
+time step  404: MOVE-DISK D1 D2 D4
+time step  405: MOVE-DISK D2 D5 D3
+time step  406: MOVE-DISK D1 D4 D2
+time step  407: MOVE-DISK D4 P2 D5
+time step  408: MOVE-DISK D1 D2 D4
+time step  409: MOVE-DISK D2 D3 P2
+time step  410: MOVE-DISK D1 D4 D2
+time step  411: MOVE-DISK D3 D6 D4
+time step  412: MOVE-DISK D1 D2 D6
+time step  413: MOVE-DISK D2 P2 D3
+time step  414: MOVE-DISK D1 D6 D2
+time step  415: MOVE-DISK D6 D7 P2
+time step  416: MOVE-DISK D1 D2 D6
+time step  417: MOVE-DISK D2 D3 D7
+time step  418: MOVE-DISK D1 D6 D2
+time step  419: MOVE-DISK D3 D4 D6
+time step  420: MOVE-DISK D1 D2 D4
+time step  421: MOVE-DISK D2 D7 D3
+time step  422: MOVE-DISK D1 D4 D2
+time step  423: MOVE-DISK D4 D5 D7
+time step  424: MOVE-DISK D1 D2 D4
+time step  425: MOVE-DISK D2 D3 D5
+time step  426: MOVE-DISK D1 D4 D2
+time step  427: MOVE-DISK D3 D6 D4
+time step  428: MOVE-DISK D1 D2 D6
+time step  429: MOVE-DISK D2 D5 D3
+time step  430: MOVE-DISK D1 D6 D2
+time step  431: MOVE-DISK D5 D8 D6
+time step  432: MOVE-DISK D1 D2 D8
+time step  433: MOVE-DISK D2 D3 D5
+time step  434: MOVE-DISK D1 D8 D2
+time step  435: MOVE-DISK D3 D4 D8
+time step  436: MOVE-DISK D1 D2 D4
+time step  437: MOVE-DISK D2 D5 D3
+time step  438: MOVE-DISK D1 D4 D2
+time step  439: MOVE-DISK D4 D7 D5
+time step  440: MOVE-DISK D1 D2 D4
+time step  441: MOVE-DISK D2 D3 D7
+time step  442: MOVE-DISK D1 D4 D2
+time step  443: MOVE-DISK D3 D8 D4
+time step  444: MOVE-DISK D1 D2 D8
+time step  445: MOVE-DISK D2 D7 D3
+time step  446: MOVE-DISK D1 D8 D2
+time step  447: MOVE-DISK D7 P3 D8
+time step  448: MOVE-DISK D1 D2 P3
+time step  449: MOVE-DISK D2 D3 D7
+time step  450: MOVE-DISK D1 P3 D2
+time step  451: MOVE-DISK D3 D4 P3
+time step  452: MOVE-DISK D1 D2 D4
+time step  453: MOVE-DISK D2 D7 D3
+time step  454: MOVE-DISK D1 D4 D2
+time step  455: MOVE-DISK D4 D5 D7
+time step  456: MOVE-DISK D1 D2 D4
+time step  457: MOVE-DISK D2 D3 D5
+time step  458: MOVE-DISK D1 D4 D2
+time step  459: MOVE-DISK D3 P3 D4
+time step  460: MOVE-DISK D1 D2 P3
+time step  461: MOVE-DISK D2 D5 D3
+time step  462: MOVE-DISK D1 P3 D2
+time step  463: MOVE-DISK D5 D6 P3
+time step  464: MOVE-DISK D1 D2 D6
+time step  465: MOVE-DISK D2 D3 D5
+time step  466: MOVE-DISK D1 D6 D2
+time step  467: MOVE-DISK D3 D4 D6
+time step  468: MOVE-DISK D1 D2 D4
+time step  469: MOVE-DISK D2 D5 D3
+time step  470: MOVE-DISK D1 D4 D2
+time step  471: MOVE-DISK D4 D7 D5
+time step  472: MOVE-DISK D1 D2 D4
+time step  473: MOVE-DISK D2 D3 D7
+time step  474: MOVE-DISK D1 D4 D2
+time step  475: MOVE-DISK D3 D6 D4
+time step  476: MOVE-DISK D1 D2 D6
+time step  477: MOVE-DISK D2 D7 D3
+time step  478: MOVE-DISK D1 D6 D2
+time step  479: MOVE-DISK D6 P2 D7
+time step  480: MOVE-DISK D1 D2 D6
+time step  481: MOVE-DISK D2 D3 P2
+time step  482: MOVE-DISK D1 D6 D2
+time step  483: MOVE-DISK D3 D4 D6
+time step  484: MOVE-DISK D1 D2 D4
+time step  485: MOVE-DISK D2 P2 D3
+time step  486: MOVE-DISK D1 D4 D2
+time step  487: MOVE-DISK D4 D5 P2
+time step  488: MOVE-DISK D1 D2 D4
+time step  489: MOVE-DISK D2 D3 D5
+time step  490: MOVE-DISK D1 D4 D2
+time step  491: MOVE-DISK D3 D6 D4
+time step  492: MOVE-DISK D1 D2 D6
+time step  493: MOVE-DISK D2 D5 D3
+time step  494: MOVE-DISK D1 D6 D2
+time step  495: MOVE-DISK D5 P3 D6
+time step  496: MOVE-DISK D1 D2 P3
+time step  497: MOVE-DISK D2 D3 D5
+time step  498: MOVE-DISK D1 P3 D2
+time step  499: MOVE-DISK D3 D4 P3
+time step  500: MOVE-DISK D1 D2 D4
+time step  501: MOVE-DISK D2 D5 D3
+time step  502: MOVE-DISK D1 D4 D2
+time step  503: MOVE-DISK D4 P2 D5
+time step  504: MOVE-DISK D1 D2 D4
+time step  505: MOVE-DISK D2 D3 P2
+time step  506: MOVE-DISK D1 D4 D2
+time step  507: MOVE-DISK D3 P3 D4
+time step  508: MOVE-DISK D1 D2 P3
+time step  509: MOVE-DISK D2 P2 D3
+time step  510: MOVE-DISK D1 P3 D2
+
+
+
+number of actions tried:     109291
+number of noops tried  :     949353
+
+had   86069 simple memoizing hits
+had       0 partial memoizing hits
+had      12 subset memoizing hits
+
+time spent:    0.00 seconds instantiating 438 operators
+               0.00 seconds building graph
+               0.02 seconds calculating exclusions
+               1.30 seconds searching graph
+               1.32 seconds total time
+
+Memory used:   0.29 MBytes for domain representation
+               3.12 MBytes for graph
+               0.47 MBytes for exclusions
+               2.80 MBytes for memoization
+              28.09 MBytes for wave front
+
+
+
