@@ -23,6 +23,7 @@ public class Planner {
 	}
 	
 	public void solve(){
+		long startTime = System.nanoTime();
 		forwardQ.add(this.initState);
 		fHash.put(this.initState.getBlockState(), this.initState);
 		int nodesExplored = 0;
@@ -33,9 +34,15 @@ public class Planner {
 			for(String a : actions){
 				stateNode next = transition(curr, a);//get Transition
 				if(next != null && next.isGoal(this.goals)){//check if we found a solution
+					long endTime = System.nanoTime();
 					System.out.println("Found a solution!");
-					System.out.println("Nodes Explored: "+nodesExplored);
+					System.out.println("Nodes Explored: "+nodesExplored+"\n\nSolution:");
 					PrintSolution(next);
+					endTime = System.nanoTime();
+					long duration = (endTime - startTime);
+					System.out.println("The program took " + duration + " nanoseconds to run");
+					System.out.println("The program took " + duration/1000000 + " milliseconds to run");
+					System.out.println("The program took " + duration/1000000000 + " seconds to run\n");
 					return;
 				}
 				if(next != null){
@@ -208,6 +215,7 @@ public class Planner {
 			return false;
 		}
 		
+		@SuppressWarnings({ "unchecked", "rawtypes" })
 		public boolean goalCollide(int x, int y, ArrayList goals) {
 			
 			for(int i = 0; i < goals.size(); i++){
@@ -245,7 +253,25 @@ public class Planner {
 	
 	public static void main(String [] args){
 		try {
-			Planner par = new Planner("challenge.txt");
+			System.out.println("--------------------------------------------------------------");
+			System.out.println("Running planner on problem 1:");
+			Planner par = new Planner("problem1.txt");
+			par.solve();
+			
+			System.out.println("--------------------------------------------------------------");
+			System.out.println("Running planner on problem 2:");
+			par = new Planner("problem2.txt");
+			par.solve();
+			
+			
+			System.out.println("--------------------------------------------------------------");
+			System.out.println("Running planner on problem 3:");
+			par = new Planner("problem3.txt");
+			par.solve();
+			
+			System.out.println("--------------------------------------------------------------");
+			System.out.println("Running planner on the challenge problem:");
+			par = new Planner("challenge.txt");
 			par.solve();
 		} catch (Exception e) {
 			e.printStackTrace();

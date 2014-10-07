@@ -1,0 +1,89 @@
+
+ipp: parsing domain file
+domain 'HANOI-DOMAIN' defined
+ ... done.
+ipp: parsing problem file
+problem 'HANOI-4' defined
+ ... done.
+
+
+warning: detected identical trees in con/dis junction
+warning: detected identical trees in con/dis junction
+instantiated 68 actions
+
+
+time:   0,    24 facts and       0 exclusive pairs (    6,       0 positives)
+              26 ops   and       9 exclusive pairs
+time:   1,    30 facts and      18 exclusive pairs (    9,       6 positives)
+              38 ops   and     128 exclusive pairs
+time:   2,    34 facts and      32 exclusive pairs (   12,      17 positives)
+              50 ops   and     354 exclusive pairs
+time:   3,    39 facts and      48 exclusive pairs (   16,      35 positives)
+              70 ops   and     955 exclusive pairs
+time:   4,    45 facts and      79 exclusive pairs (   21,      63 positives)
+              98 ops   and    2264 exclusive pairs
+time:   5,    48 facts and      85 exclusive pairs (   24,      77 positives)
+
+goals first reachable in 5 time steps
+
+             116 ops   and    3326 exclusive pairs
+time:   6,    48 facts and      80 exclusive pairs (   24,      74 positives)
+
+graph has leveled off at time step 7
+
+             116 ops   and    3310 exclusive pairs
+time:   7,    48 facts and      80 exclusive pairs (   24,      74 positives)
+
+graph has leveled off! wave front mechanism is taking over
+
+expanding wave front to level    8
+expanding wave front to level    9
+expanding wave front to level   10
+expanding wave front to level   11
+expanding wave front to level   12
+expanding wave front to level   13
+expanding wave front to level   14
+expanding wave front to level   15
+
+
+found plan as follows:
+
+time step    0: MOVE-DISK D1 D2 P2
+time step    1: MOVE-DISK D2 D3 P1
+time step    2: MOVE-DISK D1 P2 D2
+time step    3: MOVE-DISK D3 D4 P2
+time step    4: MOVE-DISK D1 D2 D4
+time step    5: MOVE-DISK D2 P1 D3
+time step    6: MOVE-DISK D1 D4 D2
+time step    7: MOVE-DISK D4 P3 P1
+time step    8: MOVE-DISK D1 D2 D4
+time step    9: MOVE-DISK D2 D3 P3
+time step   10: MOVE-DISK D1 D4 D2
+time step   11: MOVE-DISK D3 P2 D4
+time step   12: MOVE-DISK D1 D2 P2
+time step   13: MOVE-DISK D2 P3 D3
+time step   14: MOVE-DISK D1 P2 D2
+
+
+
+number of actions tried:        194
+number of noops tried  :        849
+
+had     148 simple memoizing hits
+had       0 partial memoizing hits
+had      12 subset memoizing hits
+
+time spent:    0.00 seconds instantiating 68 operators
+               0.00 seconds building graph
+               0.00 seconds calculating exclusions
+               0.00 seconds searching graph
+               0.00 seconds total time
+
+Memory used:   0.05 MBytes for domain representation
+               0.67 MBytes for graph
+               0.02 MBytes for exclusions
+               0.01 MBytes for memoization
+               0.05 MBytes for wave front
+
+
+
